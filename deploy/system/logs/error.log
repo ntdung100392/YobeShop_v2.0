@@ -1,0 +1,338 @@
+2015-02-10 8:36:09 - PHP Notice:  Error: Table 'demo1uas.product_video' doesn't exist<br />Error No: 1146<br />SELECT * FROM product_video WHERE product_id = '49' ORDER BY sort_order ASC in C:\xampp\htdocs\demo1uas\system\library\db\mysqli.php on line 40
+2015-02-10 8:36:09 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\demo1uas\system\modification\catalog\model\catalog\product.php on line 373
+2015-02-10 8:36:09 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\demo1uas\system\modification\catalog\controller\product\product.php on line 337
+2015-02-10 8:36:09 - PHP Notice:  Error: Table 'demo1uas.product_file' doesn't exist<br />Error No: 1146<br />SELECT * FROM product_file WHERE product_id = '49' ORDER BY sort_order in C:\xampp\htdocs\demo1uas\system\library\db\mysqli.php on line 40
+2015-02-10 8:36:09 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\demo1uas\system\modification\catalog\model\catalog\product.php on line 379
+2015-02-10 8:36:09 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\demo1uas\system\modification\catalog\controller\product\product.php on line 349
+2015-02-10 8:44:48 - PHP Notice:  Error: Table 'demo1uas.product_video' doesn't exist<br />Error No: 1146<br />SELECT * FROM product_video WHERE product_id = '49' ORDER BY sort_order ASC in C:\xampp\htdocs\demo1uas\system\library\db\mysqli.php on line 40
+2015-02-10 8:44:48 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\demo1uas\system\modification\catalog\model\catalog\product.php on line 373
+2015-02-10 8:44:48 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\demo1uas\system\modification\catalog\controller\product\product.php on line 337
+2015-02-10 8:44:48 - PHP Notice:  Error: Table 'demo1uas.product_file' doesn't exist<br />Error No: 1146<br />SELECT * FROM product_file WHERE product_id = '49' ORDER BY sort_order in C:\xampp\htdocs\demo1uas\system\library\db\mysqli.php on line 40
+2015-02-10 8:44:48 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\demo1uas\system\modification\catalog\model\catalog\product.php on line 379
+2015-02-10 8:44:48 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\demo1uas\system\modification\catalog\controller\product\product.php on line 349
+2015-02-10 10:28:57 - PHP Notice:  Undefined variable: text_browse in C:\xampp\htdocs\demo1uas\system\modification\admin\view\template\catalog\product_form.tpl on line 189
+2015-02-10 10:28:57 - PHP Notice:  Undefined variable: no_image in C:\xampp\htdocs\demo1uas\system\modification\admin\view\template\catalog\product_form.tpl on line 189
+2015-02-10 10:28:57 - PHP Notice:  Undefined variable: text_clear in C:\xampp\htdocs\demo1uas\system\modification\admin\view\template\catalog\product_form.tpl on line 189
+2015-02-11 5:34:59 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 37
+2015-02-11 5:35:00 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 39
+2015-02-11 5:35:00 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 45
+2015-02-11 5:35:00 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 51
+2015-02-11 5:35:00 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 53
+2015-02-11 5:35:00 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 60
+2015-02-11 5:35:00 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 67
+2015-02-11 5:35:00 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 68
+2015-02-11 5:35:00 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 69
+2015-02-11 5:35:00 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 70
+2015-02-11 5:35:00 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 71
+2015-02-11 5:35:00 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 80
+2015-02-11 5:35:00 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 91
+2015-02-11 5:36:13 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 37
+2015-02-11 5:36:13 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 39
+2015-02-11 5:36:13 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 45
+2015-02-11 5:36:13 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 51
+2015-02-11 5:36:13 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 53
+2015-02-11 5:36:13 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 60
+2015-02-11 5:36:13 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 80
+2015-02-11 5:36:13 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 91
+2015-02-11 5:36:48 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 37
+2015-02-11 5:36:48 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 39
+2015-02-11 5:36:48 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 80
+2015-02-11 5:36:48 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 91
+2015-02-11 5:37:27 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 37
+2015-02-11 5:37:27 - PHP Notice:  Indirect modification of overloaded property ControllerSaleWholesale::$data has no effect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 39
+2015-02-11 5:39:26 - PHP Notice:  Undefined variable: header in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 1
+2015-02-11 5:39:26 - PHP Notice:  Undefined variable: column_left in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 1
+2015-02-11 5:39:26 - PHP Notice:  Undefined variable: footer in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 48
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: button_send in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 56
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 57
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 57
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: button_delete in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 58
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 58
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: text_list in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 81
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: delete in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 84
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 90
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: sort_code in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 93
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: column_code in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 93
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 95
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: sort_from in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 98
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: column_from in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 98
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 100
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: sort_to in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 103
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: column_to in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 103
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 105
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: sort_amount in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 108
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: column_amount in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 108
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 110
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: sort_theme in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 113
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: column_theme in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 113
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 115
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: sort_status in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 118
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: column_status in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 118
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 120
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: sort_date_added in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 123
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: column_date_added in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 123
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: column_action in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 125
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: vouchers in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 129
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 157
+2015-02-11 5:44:59 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 158
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: button_send in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 59
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 60
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 60
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: button_delete in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 61
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 61
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: text_list in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 84
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: delete in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 87
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 93
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: sort_code in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 96
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: column_code in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 96
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 98
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: sort_from in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 101
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: column_from in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 101
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 103
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: sort_to in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 106
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: column_to in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 106
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 108
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: sort_amount in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 111
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: column_amount in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 111
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 113
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: sort_theme in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 116
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: column_theme in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 116
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 118
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: sort_status in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 121
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: column_status in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 121
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 123
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: sort_date_added in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 126
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: column_date_added in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 126
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: column_action in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 128
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: vouchers in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 132
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 160
+2015-02-11 5:47:47 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 161
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: button_send in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 59
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 60
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 60
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: button_delete in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 61
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 61
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: text_list in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 84
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: delete in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 87
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 93
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: sort_code in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 96
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: column_code in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 96
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 98
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: sort_from in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 101
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: column_from in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 101
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 103
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: sort_to in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 106
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: column_to in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 106
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 108
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: sort_amount in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 111
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: column_amount in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 111
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 113
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: sort_theme in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 116
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: column_theme in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 116
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 118
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: sort_status in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 121
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: column_status in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 121
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 123
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: sort_date_added in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 126
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: column_date_added in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 126
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: column_action in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 128
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: vouchers in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 132
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 160
+2015-02-11 7:27:54 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 161
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: button_send in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 57
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 58
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 58
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: button_delete in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 59
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 59
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: text_list in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 82
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: delete in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 85
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 91
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: sort_code in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 94
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: column_code in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 94
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 96
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: sort_from in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 99
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: column_from in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 99
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 101
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: sort_to in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 104
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: column_to in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 104
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 106
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: sort_amount in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 109
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: column_amount in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 109
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 111
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: sort_theme in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 114
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: column_theme in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 114
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 116
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: sort_status in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 119
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: column_status in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 119
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 121
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: sort_date_added in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 124
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: column_date_added in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 124
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: column_action in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 126
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: vouchers in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 130
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 158
+2015-02-11 7:28:09 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 159
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 57
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: button_send in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 59
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 60
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 60
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: button_delete in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 61
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 61
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: text_list in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 84
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: delete in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 87
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 93
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: sort_code in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 96
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: column_code in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 96
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 98
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: sort_from in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 101
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: column_from in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 101
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 103
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: sort_to in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 106
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: column_to in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 106
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 108
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: sort_amount in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 111
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: column_amount in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 111
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 113
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: sort_theme in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 116
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: column_theme in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 116
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 118
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: sort_status in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 121
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: column_status in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 121
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 123
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: sort_date_added in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 126
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: column_date_added in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 126
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: column_action in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 128
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: vouchers in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 132
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 160
+2015-02-11 7:28:51 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 161
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 57
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: button_send in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 59
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 60
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 60
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: button_delete in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 61
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 61
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: text_list in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 84
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: delete in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 87
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 93
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: sort_code in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 96
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: column_code in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 96
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 98
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: sort_from in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 101
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: column_from in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 101
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 103
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: sort_to in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 106
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: column_to in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 106
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 108
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: sort_amount in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 111
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: column_amount in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 111
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 113
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: sort_theme in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 116
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: column_theme in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 116
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 118
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: sort_status in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 121
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: column_status in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 121
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 123
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: sort_date_added in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 126
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: column_date_added in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 126
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: column_action in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 128
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: vouchers in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 132
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 160
+2015-02-11 7:31:15 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 161
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 57
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 60
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 60
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: button_delete in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 61
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 61
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: text_list in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 84
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: delete in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 87
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 93
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: sort_code in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 96
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: column_code in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 96
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 98
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: sort_from in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 101
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: column_from in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 101
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 103
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: sort_to in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 106
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: column_to in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 106
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 108
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: sort_amount in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 111
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: column_amount in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 111
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 113
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: sort_theme in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 116
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: column_theme in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 116
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 118
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: sort_status in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 121
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: column_status in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 121
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 123
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: sort_date_added in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 126
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: column_date_added in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 126
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: column_action in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 128
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: vouchers in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 132
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 160
+2015-02-11 7:36:53 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 161
+2015-02-11 7:37:59 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 57
+2015-02-11 7:37:59 - PHP Notice:  Undefined variable: add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 60
+2015-02-11 7:37:59 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 60
+2015-02-11 7:37:59 - PHP Notice:  Undefined variable: button_delete in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 61
+2015-02-11 7:37:59 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 61
+2015-02-11 7:37:59 - PHP Notice:  Undefined variable: text_list in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 84
+2015-02-11 7:37:59 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 113
+2015-02-11 7:37:59 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 114
+2015-02-11 8:15:14 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 57
+2015-02-11 8:15:14 - PHP Notice:  Undefined variable: add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 60
+2015-02-11 8:15:14 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 60
+2015-02-11 8:15:14 - PHP Notice:  Undefined variable: button_delete in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 61
+2015-02-11 8:15:14 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 61
+2015-02-11 8:15:14 - PHP Notice:  Undefined variable: text_list in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 84
+2015-02-11 8:15:14 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 113
+2015-02-11 8:15:14 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 114
+2015-02-11 8:15:37 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 7
+2015-02-11 8:15:37 - PHP Notice:  Undefined variable: add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 10
+2015-02-11 8:15:37 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 10
+2015-02-11 8:15:37 - PHP Notice:  Undefined variable: button_delete in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 11
+2015-02-11 8:15:37 - PHP Notice:  Undefined variable: text_confirm in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 11
+2015-02-11 8:15:37 - PHP Notice:  Undefined variable: text_list in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 34
+2015-02-11 8:15:37 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 63
+2015-02-11 8:15:37 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 64
+2015-02-11 8:16:15 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 7
+2015-02-11 8:16:15 - PHP Notice:  Undefined variable: text_list in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 31
+2015-02-11 8:16:15 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 60
+2015-02-11 8:16:15 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 61
+2015-02-11 8:17:05 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 7
+2015-02-11 8:17:05 - PHP Notice:  Undefined variable: text_list in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 31
+2015-02-11 8:17:05 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 60
+2015-02-11 8:17:05 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 61
+2015-02-11 8:18:33 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 7
+2015-02-11 8:18:33 - PHP Notice:  Undefined variable: text_list in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 31
+2015-02-11 8:18:33 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 59
+2015-02-11 8:19:59 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 7
+2015-02-11 8:19:59 - PHP Notice:  Undefined variable: text_list in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 31
+2015-02-11 8:21:04 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 7
+2015-02-11 8:21:04 - PHP Notice:  Undefined variable: text_list in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 31
+2015-02-11 8:22:46 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 6
+2015-02-11 8:23:05 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 6
+2015-02-11 8:23:55 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 6
+2015-02-11 8:24:25 - PHP Notice:  Undefined variable: redirect in C:\xampp\htdocs\demo1uas\admin\controller\sale\wholesale.php on line 31
+2015-02-11 8:24:27 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 6
+2015-02-11 8:25:41 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 6
+2015-02-11 8:25:46 - PHP Notice:  Undefined variable: button_add in C:\xampp\htdocs\demo1uas\admin\view\template\sale\wholesale_list.tpl on line 6
+2015-02-11 9:06:23 - PHP Notice:  Undefined index: specification in C:\xampp\htdocs\demo1uas\admin\view\template\catalog\product_form.tpl on line 71
+2015-02-11 11:27:12 - PHP Notice:  Undefined index: specification in C:\xampp\htdocs\demo1uas\admin\view\template\catalog\product_form.tpl on line 71
+2015-02-11 11:41:12 - PHP Notice:  Undefined index: specification in C:\xampp\htdocs\demo1uas\admin\view\template\catalog\product_form.tpl on line 71
+2015-02-11 11:41:20 - PHP Notice:  Undefined index: specification in C:\xampp\htdocs\demo1uas\admin\view\template\catalog\product_form.tpl on line 71
+2015-02-11 11:50:06 - PHP Notice:  Undefined index: specification in C:\xampp\htdocs\demo1uas\admin\view\template\catalog\product_form.tpl on line 71
+2015-02-11 11:50:15 - PHP Notice:  Undefined index: specification in C:\xampp\htdocs\demo1uas\admin\view\template\catalog\product_form.tpl on line 71
+2015-02-12 10:23:46 - PHP Notice:  Undefined index: specification in D:\demo1uas\system\modification\admin\model\catalog\product.php on line 489
+2015-02-12 10:32:49 - PHP Notice:  Undefined index: specification in D:\demo1uas\system\modification\admin\model\catalog\product.php on line 489
+2015-02-12 10:33:54 - PHP Notice:  Undefined index: specification in D:\demo1uas\system\modification\admin\model\catalog\product.php on line 489
+2015-02-12 10:37:08 - PHP Notice:  Undefined index: specification in D:\demo1uas\system\modification\admin\model\catalog\product.php on line 489
+2015-02-12 10:43:36 - PHP Notice:  Undefined index: specification in D:\demo1uas\system\modification\admin\model\catalog\product.php on line 489
+2015-02-12 10:44:03 - PHP Notice:  Undefined index: specification in D:\demo1uas\system\modification\admin\model\catalog\product.php on line 489
+2015-02-12 10:46:13 - PHP Notice:  Undefined index: specification in D:\demo1uas\system\modification\admin\model\catalog\product.php on line 489
+2015-02-12 10:52:50 - PHP Notice:  Undefined index: specification in D:\demo1uas\system\modification\admin\model\catalog\product.php on line 489
+2015-02-12 10:54:39 - PHP Notice:  Undefined index: specification in D:\demo1uas\system\modification\admin\model\catalog\product.php on line 489
+2015-02-12 10:55:08 - PHP Notice:  Undefined index: specification in D:\demo1uas\system\modification\admin\model\catalog\product.php on line 489
+2015-02-12 10:58:15 - PHP Notice:  Undefined index: specification in D:\demo1uas\system\modification\admin\model\catalog\product.php on line 489
+2015-02-12 11:00:10 - PHP Notice:  Undefined index: specification in D:\demo1uas\system\modification\admin\model\catalog\product.php on line 489
+2015-02-14 4:40:58 - PHP Notice:  Undefined index: specification in D:\yobeshop_new\system\modification\admin\model\catalog\product.php on line 489
+2015-02-14 6:09:46 - PHP Notice:  Undefined index: specification in D:\yobeshop_new\system\modification\admin\model\catalog\product.php on line 489
+2015-02-14 6:10:01 - PHP Notice:  Undefined index: specification in D:\yobeshop_new\system\modification\admin\model\catalog\product.php on line 489
