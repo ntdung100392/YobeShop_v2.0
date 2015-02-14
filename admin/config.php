@@ -4,8 +4,8 @@ define('HTTP_SERVER', 'http://trungdung.ddns.net/YobeShopv20/admin/');
 define('HTTP_CATALOG', 'http://trungdung.ddns.net/YobeShopv20/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://localhost:8080/YobeShopv20/admin/');
-define('HTTPS_CATALOG', 'http://localhost:8080/YobeShopv20/');
+define('HTTPS_SERVER', 'http://trungdung.ddns.net/YobeShopv20/admin/');
+define('HTTPS_CATALOG', 'http://trungdung.ddns.net/YobeShopv20/');
 
 // DIR
 define('DIR_APPLICATION', '/yobeshopv20/admin/');
