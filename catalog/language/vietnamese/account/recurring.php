@@ -1,0 +1,56 @@
+<?php
+$_['heading_title'] = 'Thanh toán định kỳ';
+$_['button_continue'] = 'Tiếp tục';
+$_['button_view'] = 'Xem';
+$_['button_cancel_profile'] = 'Hủy bỏ các khoản thanh toán';
+$_['text_empty'] = 'Không tìm thấy hồ sơ thanh toán định kỳ nào';
+$_['text_product'] = 'Sản phẩm: ';
+$_['text_order'] = 'Đơn hàng: ';
+$_['text_quantity'] = 'Số lượng: ';
+$_['text_account'] = 'Tài khoản';
+$_['text_action'] = 'Hành động: ';
+$_['text_recurring'] = 'Thanh toán định kỳ';
+$_['text_transactions'] = 'Giao dịch';
+$_['button_return'] = 'Trả hàng';
+$_['text_confirm_cancel'] = 'Bạn có chắc chắn muốn hủy bỏ hồ sơ?';
+$_['text_empty_transactions'] = 'Không có giao dịch cho hồ sơ này';
+
+$_['column_created'] = 'Đã tạo';
+$_['column_date_added'] = 'Đã tạo';
+$_['column_type'] = 'Loại';
+$_['column_amount'] = 'Giá';
+$_['column_status'] = 'Status';
+$_['column_product'] = 'Sản phẩm';
+$_['column_action'] = 'Hành động';
+$_['column_profile_id'] = 'Profile ID';
+$_['column_recurring_id'] = 'Profile ID';
+$_['text_recurring_detail'] = 'Chi tiết thanh toán định kỳ';
+$_['text_recurring_id'] = 'Profile ID: ';
+$_['text_payment_method'] = 'Phương thức thanh toán: ';
+$_['text_date_added'] = 'Đã tạo: ';
+$_['text_recurring_description'] = 'Mô tả: ';
+$_['text_status'] = 'Status: ';
+$_['text_ref'] = 'Tham khảo: ';
+
+$_['text_status_active'] = 'Hoạt động';
+$_['text_status_inactive'] = 'Không hoạt động';
+$_['text_status_cancelled'] = 'Đã hủy';
+$_['text_status_suspended'] = 'Đã tạm dừng';
+$_['text_status_expired'] = 'Đã hết hạn';
+$_['text_status_pending'] = 'Chưa giải quyết';
+$_['text_transaction_date_added'] = 'Đã tạo';
+$_['text_transaction_created'] = 'Đã tạo';
+$_['text_transaction_payment'] = 'Thanh toán';
+$_['text_transaction_outstanding_payment'] = 'Thanh toán nhanh';
+$_['text_transaction_skipped'] = 'Thanh toán thông thường';
+$_['text_transaction_failed'] = 'Thanh toán không thành';
+$_['text_transaction_cancelled'] = 'Đã hủy';
+$_['text_transaction_suspended'] = 'Đã tạm dừng';
+$_['text_transaction_suspended_failed'] = 'Tạm dừng thanh toán không thành';
+$_['text_transaction_outstanding_failed'] = 'Thanh toán nhanh thất bại';
+$_['text_transaction_expired'] = 'Đã hết hạn';
+$_['text_cancelled'] = 'Thanh toán định kỳ đã bị hủy';
+
+$_['error_not_cancelled'] = 'Lỗi: %s';
+$_['error_not_found'] = 'Không thể hủy hồ sơ';
+$_['success_cancelled'] = 'Thanh toán định kỳ đã bị hủy';
