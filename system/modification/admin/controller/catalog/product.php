@@ -540,7 +540,7 @@ class ControllerCatalogProduct extends Controller {
 
 		$data['entry_name'] = $this->language->get('entry_name');
 		$data['entry_description'] = $this->language->get('entry_description');
-                $data['entry_specification'] = $this->language->get('entry_specification');
+                $data['entry_guide'] = $this->language->get('entry_guide');
 		$data['entry_meta_title'] = $this->language->get('entry_meta_title');
 		$data['entry_meta_description'] = $this->language->get('entry_meta_description');
 		$data['entry_meta_keyword'] = $this->language->get('entry_meta_keyword');
@@ -779,25 +779,7 @@ class ControllerCatalogProduct extends Controller {
 				'sort_order' => $product_video['sort_order']
 			);
 		}
-
-                // Tab Downloads
-                $data['entry_filename'] = $this->language->get('entry_filename');
-                $data['tab_downloads'] = $this->language->get('tab_downloads');
                 
-                if (isset($this->request->post['product_file'])) 
-                {
-			$data['product_files'] = $this->request->post['product_file'];
-		} 
-                elseif (isset($this->request->get['product_id'])) 
-                {
-			$data['product_files'] = $this->model_catalog_product->getProductFiles($this->request->get['product_id']);
-		} 
-                else 
-                {
-			$data['product_files'] = array();
-		}
-                
-                // ----------
                 
 		
 		if (isset($this->request->post['model'])) {

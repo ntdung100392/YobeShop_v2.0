@@ -90,7 +90,6 @@
         </ul>
       </li>
       <li><a class="parent"><?php echo $text_voucher; ?></a>
-<li><a href="<?php echo $wholesale_price_manager; ?>"><?php echo $text_wholesale_price_manager; ?></a></li>
         <ul>
           <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
           <li><a href="<?php echo $voucher_theme; ?>"><?php echo $text_voucher_theme; ?></a></li>

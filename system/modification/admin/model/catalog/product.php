@@ -5,19 +5,6 @@ class ModelCatalogProduct extends Model {
 
 		$this->db->query("INSERT INTO " . DB_PREFIX . "product SET model = '" . $this->db->escape($data['model']) . "', sku = '" . $this->db->escape($data['sku']) . "', upc = '" . $this->db->escape($data['upc']) . "', ean = '" . $this->db->escape($data['ean']) . "', jan = '" . $this->db->escape($data['jan']) . "', isbn = '" . $this->db->escape($data['isbn']) . "', mpn = '" . $this->db->escape($data['mpn']) . "', location = '" . $this->db->escape($data['location']) . "', quantity = '" . (int)$data['quantity'] . "', minimum = '" . (int)$data['minimum'] . "', subtract = '" . (int)$data['subtract'] . "', stock_status_id = '" . (int)$data['stock_status_id'] . "', date_available = '" . $this->db->escape($data['date_available']) . "', manufacturer_id = '" . (int)$data['manufacturer_id'] . "', shipping = '" . (int)$data['shipping'] . "', price = '" . (float)$data['price'] . "', points = '" . (int)$data['points'] . "', weight = '" . (float)$data['weight'] . "', weight_class_id = '" . (int)$data['weight_class_id'] . "', length = '" . (float)$data['length'] . "', width = '" . (float)$data['width'] . "', height = '" . (float)$data['height'] . "', length_class_id = '" . (int)$data['length_class_id'] . "', status = '" . (int)$data['status'] . "', tax_class_id = '" . $this->db->escape($data['tax_class_id']) . "', sort_order = '" . (int)$data['sort_order'] . "', date_added = NOW()");
 
-
-            // Tab downloads
-                if (isset($data['product_file'])) {
-			foreach ($data['product_file'] as $file) {
-                            $filename = str_replace(HTTP_CATALOG, '', $file['filename']);
-                            $filename = str_replace(HTTPS_CATALOG, '', $filename);
-                            
-				$this->db->query("INSERT INTO " . DB_PREFIX . "product_file SET product_id = '" . (int)$product_id . "', filename = '" . $this->db->escape(html_entity_decode($filename, ENT_QUOTES, 'UTF-8')) . "', file_description = '" . $this->db->escape(html_entity_decode(trim($file['description']), ENT_QUOTES, 'UTF-8')) ."', sort_order = '" . (int)$file['sort_order'] . "'");
-			}
-		}
-                
-                //--------        
-            
 		$product_id = $this->db->getLastId();
 
 		if (isset($data['image'])) {
@@ -25,7 +12,7 @@ class ModelCatalogProduct extends Model {
 		}
 
 		foreach ($data['product_description'] as $language_id => $value) {
-			$this->db->query("INSERT INTO " . DB_PREFIX . "product_description SET product_id = '" . (int)$product_id . "', language_id = '" . (int)$language_id . "', name = '" . $this->db->escape($value['name']) . "', description = '" . $this->db->escape($value['description']) . "', tag = '" . $this->db->escape($value['tag']) . "', meta_title = '" . $this->db->escape($value['meta_title']) . "', meta_description = '" . $this->db->escape($value['meta_description']) . "', meta_keyword = '" . $this->db->escape($value['meta_keyword']) . "', specification = '" . $this->db->escape($value['specification']) . "'");
+			$this->db->query("INSERT INTO " . DB_PREFIX . "product_description SET product_id = '" . (int)$product_id . "', language_id = '" . (int)$language_id . "', name = '" . $this->db->escape($value['name']) . "', description = '" . $this->db->escape($value['description']) . "', tag = '" . $this->db->escape($value['tag']) . "', meta_title = '" . $this->db->escape($value['meta_title']) . "', meta_description = '" . $this->db->escape($value['meta_description']) . "', meta_keyword = '" . $this->db->escape($value['meta_keyword']) . "', guide = '" . $this->db->escape($value['guide']) . "'");
 		}
 
 		if (isset($data['product_store'])) {
@@ -150,7 +137,7 @@ class ModelCatalogProduct extends Model {
 		$this->db->query("DELETE FROM " . DB_PREFIX . "product_description WHERE product_id = '" . (int)$product_id . "'");
 
 		foreach ($data['product_description'] as $language_id => $value) {
-			$this->db->query("INSERT INTO " . DB_PREFIX . "product_description SET product_id = '" . (int)$product_id . "', language_id = '" . (int)$language_id . "', name = '" . $this->db->escape($value['name']) . "', description = '" . $this->db->escape($value['description']) . "', tag = '" . $this->db->escape($value['tag']) . "', meta_title = '" . $this->db->escape($value['meta_title']) . "', meta_description = '" . $this->db->escape($value['meta_description']) . "', meta_keyword = '" . $this->db->escape($value['meta_keyword']) . "', specification = '" . $this->db->escape($value['specification']) . "'");
+			$this->db->query("INSERT INTO " . DB_PREFIX . "product_description SET product_id = '" . (int)$product_id . "', language_id = '" . (int)$language_id . "', name = '" . $this->db->escape($value['name']) . "', description = '" . $this->db->escape($value['description']) . "', tag = '" . $this->db->escape($value['tag']) . "', meta_title = '" . $this->db->escape($value['meta_title']) . "', meta_description = '" . $this->db->escape($value['meta_description']) . "', meta_keyword = '" . $this->db->escape($value['meta_keyword']) . "', guide = '" . $this->db->escape($value['guide']) . "'");
 		}
 
 		$this->db->query("DELETE FROM " . DB_PREFIX . "product_to_store WHERE product_id = '" . (int)$product_id . "'");
@@ -229,19 +216,6 @@ class ModelCatalogProduct extends Model {
 				$this->db->query("INSERT INTO " . DB_PREFIX . "product_video SET product_id = '" . (int)$product_id . "', video = '" . $this->db->escape(html_entity_decode($product_video['video'], ENT_QUOTES, 'UTF-8')) . "', sort_order = '" . (int)$product_video['sort_order'] . "'");
 			}
 		}
-                
-                // Tab downloads
-                $this->db->query("DELETE FROM " . DB_PREFIX . "product_file WHERE product_id = '" . (int)$product_id . "'");
-                if (isset($data['product_file'])) {
-			foreach ($data['product_file'] as $file) {
-                            $filename = str_replace(HTTP_CATALOG, '', $file['filename']);
-                            $filename = str_replace(HTTPS_CATALOG, '', $filename);
-                            
-				$this->db->query("INSERT INTO " . DB_PREFIX . "product_file SET product_id = '" . (int)$product_id . "', filename = '" . $this->db->escape(html_entity_decode($filename, ENT_QUOTES, 'UTF-8')) . "', file_description = '" . $this->db->escape(html_entity_decode(trim($file['description']), ENT_QUOTES, 'UTF-8')) ."', sort_order = '" . (int)$file['sort_order'] . "'");
-			}
-		}
-                
-                //--------
 
                 
 
@@ -372,19 +346,6 @@ class ModelCatalogProduct extends Model {
 				$this->db->query("INSERT INTO " . DB_PREFIX . "product_video SET product_id = '" . (int)$product_id . "', video = '" . $this->db->escape(html_entity_decode($product_video['video'], ENT_QUOTES, 'UTF-8')) . "', sort_order = '" . (int)$product_video['sort_order'] . "'");
 			}
 		}
-                
-                // Tab downloads
-                $this->db->query("DELETE FROM " . DB_PREFIX . "product_file WHERE product_id = '" . (int)$product_id . "'");
-                if (isset($data['product_file'])) {
-			foreach ($data['product_file'] as $file) {
-                            $filename = str_replace(HTTP_CATALOG, '', $file['filename']);
-                            $filename = str_replace(HTTPS_CATALOG, '', $filename);
-                            
-				$this->db->query("INSERT INTO " . DB_PREFIX . "product_file SET product_id = '" . (int)$product_id . "', filename = '" . $this->db->escape(html_entity_decode($filename, ENT_QUOTES, 'UTF-8')) . "', file_description = '" . $this->db->escape(html_entity_decode(trim($file['description']), ENT_QUOTES, 'UTF-8')) ."', sort_order = '" . (int)$file['sort_order'] . "'");
-			}
-		}
-                
-                //--------
 
                 
 		$this->db->query("DELETE FROM " . DB_PREFIX . "product_to_layout WHERE product_id = '" . (int)$product_id . "'");
@@ -486,7 +447,7 @@ class ModelCatalogProduct extends Model {
 				'meta_description' => $result['meta_description'],
 				'meta_keyword'     => $result['meta_keyword'],
 				'tag'              => $result['tag'],
-                                'specification'    => $result['specification']
+                                'guide'            => $result['guide']
 			);
 		}
 
