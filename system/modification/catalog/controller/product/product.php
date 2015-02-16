@@ -338,37 +338,7 @@ $data['thumb_fixed'] = $this->model_tool_image->resize($product_info['image'], $
                         $data['videos'][] = array(
                                 'video' => $result['video']
                         );
-                }
-                
-                // Downloads
-                $data['downloads'] = array();
-
-                $results = $this->model_catalog_product->getProductFiles($this->request->get['product_id']);
-                $data['text_download'] = 'Downloads (' . sizeof($results) . ')';
-
-                foreach ($results as $result) {
-                        $ext = pathinfo($result['filename'], PATHINFO_EXTENSION);
-                
-                        if(in_array($ext,array('txt','pdf', 'doc','docx','xls','xlsx', 'ppt','pptx','jpg', 'png', 'bmp','avi','wmv','mp4','zip')))
-                        {
-                            $icon = 'catalog/view/theme/journal/images/file/' . $ext . '.png';
-                        }
-                        elseif(in_array($ext,array('tar','gz','rar','bz2')))
-                        {
-                            $icon = 'catalog/view/theme/journal/images/file/rar.png';
-                        }
-                        else
-                        {
-                            $icon = 'catalog/view/theme/journal/images/file/no-ext.png';
-                        }
-                        
-                        $data['files'][] = array(
-                                'filename' => str_replace('_', ' ', basename($result['filename'])),
-                                'path' => HTTP_SERVER . $result['filename'],
-                                'icon' => $icon,
-                                'description' => $result['file_description']
-                        );
-                }
+                }                
         
 
 			$results = $this->model_catalog_product->getProductImages($this->request->get['product_id']);

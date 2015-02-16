@@ -64,9 +64,9 @@
                     </div>
                   </div>                    
                     <div class="form-group">
-                    <label class="col-sm-2 control-label" for="input-description<?php echo $language['language_id']; ?>"><?php echo $entry_specification; ?></label>
+                    <label class="col-sm-2 control-label" for="input-description<?php echo $language['language_id']; ?>"><?php echo $entry_guide; ?></label>
                     <div class="col-sm-10">
-                      <textarea name="product_description[<?php echo $language['language_id']; ?>][specification]" placeholder="<?php echo $entry_specification; ?>" id="input-specification<?php echo $language['language_id']; ?>"><?php echo isset($product_description[$language['language_id']]) ? $product_description[$language['language_id']]['specification'] : ''; ?></textarea>
+                      <textarea name="product_description[<?php echo $language['language_id']; ?>][guide]" placeholder="<?php echo $entry_guide; ?>" id="input-guide<?php echo $language['language_id']; ?>"><?php echo isset($product_description[$language['language_id']]) ? $product_description[$language['language_id']]['guide'] : ''; ?></textarea>
                     </div>
                   </div>                    
                   <div class="form-group required">
@@ -933,7 +933,7 @@ CKEDITOR.replace('input-description<?php echo $language['language_id']; ?>', {
 	filebrowserFlashUploadUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>'
 });
 
-CKEDITOR.replace('input-specification<?php echo $language['language_id']; ?>', {
+CKEDITOR.replace('input-guide<?php echo $language['language_id']; ?>', {
 	filebrowserBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
 	filebrowserImageBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
 	filebrowserFlashBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',

@@ -1,11 +1,5 @@
-
-            
-            
 <?php echo $header; ?><?php echo $column_left; ?>
 <div id="content">
-<link rel="stylesheet" type="text/css" media="screen" href="elfinder/css/elfinder.min.css">
-            <link rel="stylesheet" type="text/css" media="screen" href="elfinder/css/theme.css">
-            <script type="text/javascript" src="elfinder/js/elfinder.min.js"></script>
   <div class="page-header">
     <div class="container-fluid">
       <div class="pull-right">
@@ -44,7 +38,6 @@
             <li><a href="#tab-reward" data-toggle="tab"><?php echo $tab_reward; ?></a></li>
 
 			<li><a href="#tab-videos" data-toggle="tab">Videos</a></li>
-            <li><a href="#tab-download" data-toggle="tab">Download</a></li>
 			
             <li><a href="#tab-design" data-toggle="tab"><?php echo $tab_design; ?></a></li>
           </ul>
@@ -74,9 +67,9 @@
                     </div>
                   </div>                    
                     <div class="form-group">
-                    <label class="col-sm-2 control-label" for="input-description<?php echo $language['language_id']; ?>"><?php echo $entry_specification; ?></label>
+                    <label class="col-sm-2 control-label" for="input-description<?php echo $language['language_id']; ?>"><?php echo $entry_guide; ?></label>
                     <div class="col-sm-10">
-                      <textarea name="product_description[<?php echo $language['language_id']; ?>][specification]" placeholder="<?php echo $entry_specification; ?>" id="input-specification<?php echo $language['language_id']; ?>"><?php echo isset($product_description[$language['language_id']]) ? $product_description[$language['language_id']]['specification'] : ''; ?></textarea>
+                      <textarea name="product_description[<?php echo $language['language_id']; ?>][guide]" placeholder="<?php echo $entry_guide; ?>" id="input-guide<?php echo $language['language_id']; ?>"><?php echo isset($product_description[$language['language_id']]) ? $product_description[$language['language_id']]['guide'] : ''; ?></textarea>
                     </div>
                   </div>                    
                   <div class="form-group required">
@@ -887,37 +880,7 @@
             </tfoot>
                 </table>
               </div>
-            </div>
-              <div class="tab-pane" id="tab-download">
-              <div class="table-responsive">
-                <table id="download" class="table table-striped table-bordered table-hover">
-                  <thead>
-              <tr>
-                  <td class="left" style="width: 35%;"><?php echo $entry_filename; ?></td>
-                <td class="left"><?php echo $entry_description; ?></td>
-                <td class="right" style="width: 10%;"><?php echo $entry_sort_order; ?></td>
-                <td style="width: 5%;"></td>
-              </tr>
-            </thead>
-            <?php $file_row = 0; ?>
-            <?php foreach ($product_files as $product_file) { ?>
-            <tbody id="file-row<?php echo $file_row; ?>">
-              <tr>
-                <td class="left"><input type="hidden" name="product_file[<?php echo $file_row; ?>][filename]" value="<?php echo $product_file['filename']; ?>" /> <?php  echo HTTPS_CATALOG . $product_file['filename']; ?> </td>
-                <td class="left"><input type="text" name="product_file[<?php echo $file_row; ?>][description]" value="<?php echo $product_file['file_description']; ?>" size="120" /></td>
-                <td class="right"><input type="text" name="product_file[<?php echo $file_row; ?>][sort_order]" value="<?php echo $product_file['sort_order']; ?>" size="2" class="file_sort" /></td>
-                <td class="left"><a onclick="$('#file-row<?php echo $file_row; ?>').remove();reset_file_order();" class="button"><?php echo $button_remove; ?></a></td>
-              </tr>
-            </tbody>
-            <?php $file_row++; ?>
-            <?php } ?>
-            <tfoot>
-            
-            </tfoot>
-                </table>
-                  <div id="elfinder"></div>
-              </div>
-            </div>
+            </div>              
         
             <div class="tab-pane" id="tab-reward">
               <div class="form-group">
@@ -1005,7 +968,7 @@ CKEDITOR.replace('input-description<?php echo $language['language_id']; ?>', {
 	filebrowserFlashUploadUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>'
 });
 
-CKEDITOR.replace('input-specification<?php echo $language['language_id']; ?>', {
+CKEDITOR.replace('input-guide<?php echo $language['language_id']; ?>', {
 	filebrowserBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
 	filebrowserImageBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
 	filebrowserFlashBrowseUrl: 'index.php?route=common/filemanager&token=<?php echo $token; ?>',
@@ -1498,39 +1461,20 @@ $('#language a:first').tab('show');
 $('#option a:first').tab('show');
 //--></script></div>
 
-
-                <script type="text/javascript">
-                  
-                  
-                  function reset_file_order()
-                  {
-                      var count = 1;
-                      $('.file_sort').each(function(index, value){
-                             $(this).val(count++);
-                      });          
-                  }
-                  
-                  var file_row = parseInt('<?php echo $file_row; ?>');
-                  
-                    var elf = $('#elfinder').elfinder({
-                    url : 'elfinder/php/connector.php',
-                    getFileCallback: function(file) {
-                        var filename = file;
-                        var html = '<tbody id="file-row' + file_row + '"><tr>'
-                            html += '<td class="left"><input type="hidden" name="product_file[' + file_row + '][filename]" value="' + filename + '"/> ' + filename + '</td>';
-                            html += '<td class="left"><input type="text" name="product_file[' + file_row + '][description]" size="120" /></td>';
-                            html += '<td class="right"><input type="text" name="product_file[' + file_row + '][sort_order]" value="" size="2" class="file_sort" /></td>';
-                            html +=  '<td class="left"><a onclick="$(\'#file-row' + file_row + '\').remove();reset_file_order();" class="button"><?php echo $button_remove; ?></a></td>';
-                            html += '</tr></tbody>';
-                        $('#downloads tfoot').before(html);
-                        file_row++;
-                        reset_file_order();
-                    }
-                }).elfinder('instance');
-
-              </script> 
-<script type="text/javascript">
                 
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#videos").sortable({
+          items: 'tbody',
+          placeholder: "ui-state-highlight",
+          start: function (event, ui) {
+             ui.placeholder.html('<!--[if IE]><td>&nbsp;</td><![endif]-->');
+          },
+          stop : function(event,ui){
+             reset_video_order();
+          }
+    });
+});                
 
 function reset_video_order()
 {
