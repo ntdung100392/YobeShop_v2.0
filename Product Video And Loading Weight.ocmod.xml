@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <modification>
-    <name>Product Videos Extension Design For Yobeshop Opencart 2.0.x</name>
+    <name>Product Video And Loading Weight Design For Yobeshop Opencart 2.0.x</name>
     <code>product</code>
     <version>1.1</version>
     <author>Dung Nguyen - Inspiration</author>
@@ -70,7 +70,39 @@
         ]]></add>
         </operation>        
     </file>
+	<file path="catalog/language/english/product/product.php">
+        <operation>
+            <search><![CDATA[$_['text_year']                = 'year';]]></search>
+            <add position="after"><![CDATA[
+			$_['text_weight']                = 'Weight:';
+        ]]></add>
+        </operation>        
+    </file>
+	<file path="catalog/language/vietnamese/product/product.php">
+        <operation>
+            <search><![CDATA[$_['text_error']        = 'Không có sản phẩm!';]]></search>
+            <add position="after"><![CDATA[
+			$_['text_weight']                = 'Trọng lượng:';
+        ]]></add>
+        </operation>        
+    </file>
 	<file path="catalog/controller/product/product.php">
+	<operation>
+		<search><![CDATA[private $error = array();]]></search>
+		<add position="after"><![CDATA[
+		public function getWeightClass($weight_class_id) {
+        $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "weight_class wc LEFT JOIN " . DB_PREFIX . "weight_class_description wcd ON (wc.weight_class_id = wcd.weight_class_id) WHERE wc.weight_class_id = '" . (int)$weight_class_id . "' AND wcd.language_id = '" . (int)$this->config->get('config_language_id') . "'");
+
+        return $query->row;
+    }
+		]]></add>
+	</operation>
+	<operation>
+		<search><![CDATA[$data['text_loading'] = $this->language->get('text_loading');]]></search>
+		<add position="after"><![CDATA[
+		$data['text_weight'] = $this->language->get('text_weight');
+		]]></add>
+	</operation>
         <operation>
             <search><![CDATA[$data['images'] = array();]]></search>
             <add position="after"><![CDATA[
@@ -85,7 +117,36 @@
                                 'video' => $result['video']
                         );
                 }
-                
+				
+                if ($product_info['weight']) {
+                $explode_temp = explode(".",$product_info['weight']);
+                if($explode_temp[1]>0){
+                    $remove_zero = explode("0",$explode_temp[1]);
+                    $product_info['weight'] = ($explode_temp[0].".".$remove_zero[0]);
+                }else{
+                    $product_info['weight'] = $explode_temp[0];
+                }
+                $data['weight'] = $product_info['weight'];
+            } else {
+                $data['weight'] = '';
+            }
+
+            //Get weight class to frontpage
+            $weight_class = $this->getWeightClass($product_info['weight_class_id']);
+
+            if ($product_info['weight_class_id']) {
+                $data['weight_class'] = $weight_class['unit'];
+            } else {
+                $data['weight_class'] = '';
+            }
+
+            if (isset($this->request->post['weight_class_id'])) {
+                $data['weight_class_id'] = $this->request->post['weight_class_id'];
+            } elseif (!empty($product_info)) {
+                $data['weight_class_id'] = $product_info['weight_class_id'];
+            } else {
+                $data['weight_class_id'] = $this->config->get('config_weight_class_id');
+            }
                 
         ]]></add>
         </operation>

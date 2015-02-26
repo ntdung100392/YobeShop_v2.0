@@ -779,7 +779,7 @@ class ControllerCatalogProduct extends Controller {
 				'sort_order' => $product_video['sort_order']
 			);
 		}
-                
+                // ----------
                 
 		
 		if (isset($this->request->post['model'])) {

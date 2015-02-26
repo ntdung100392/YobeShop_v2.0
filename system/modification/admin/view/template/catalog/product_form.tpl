@@ -856,8 +856,8 @@
                 <table id="videos" class="table table-striped table-bordered table-hover">
                   <thead>
               <tr>
-                <td class="left">Video Code</td>
-                <td class="right">Sort Order</td>
+                <td class="text-left">Video Code</td>
+                <td class="text-right">Sort Order</td>
                 <td></td>
               </tr>
             </thead>
@@ -865,9 +865,9 @@
             <?php foreach ($product_videos as $product_video) { ?>
             <tbody id="video-row<?php echo $video_row; ?>">
               <tr>
-                  <td class="left"><textarea rows="8" cols="40" name="product_video[<?php echo $video_row; ?>][video]" id="video<?php echo $video_row; ?>" style="width: 95%;" /><?php echo $product_video['video']; ?></textarea></td>
-                <td class="right"><input class="video_sort" type="text" name="product_video[<?php echo $video_row; ?>][sort_order]" value="<?php echo $product_video['sort_order']; ?>" size="2" /></td>
-                <td class="left"><a onclick="$('#video-row<?php echo $video_row; ?>').remove();reset_video_order();" class="button">Delete</a></td>
+                  <td class="text-left"><textarea rows="8" cols="40" name="product_video[<?php echo $video_row; ?>][video]" id="video<?php echo $video_row; ?>" style="width: 95%;" /><?php echo $product_video['video']; ?></textarea></td>
+                <td class="text-right"><input class="video_sort" type="text" name="product_video[<?php echo $video_row; ?>][sort_order]" value="<?php echo $product_video['sort_order']; ?>" size="2" /></td>
+                <td class="text-left"><a onclick="$('#video-row<?php echo $video_row; ?>').remove();reset_video_order();" class="button">Delete</a></td>
               </tr>
             </tbody>
             <?php $video_row++; ?>
@@ -875,7 +875,7 @@
             <tfoot>
               <tr>
                 <td colspan="2"></td>
-                <td class="left"><a onclick="addVideo();reset_video_order();" class="button">Add Video</a></td>
+                <td class="text-left"><a onclick="addVideo();reset_video_order();" class="button">Add Video</a></td>
               </tr>
             </tfoot>
                 </table>
@@ -1460,10 +1460,9 @@ $('.datetime').datetimepicker({
 $('#language a:first').tab('show');
 $('#option a:first').tab('show');
 //--></script></div>
-
                 
 <script type="text/javascript">
-$(document).ready(function(){
+   $(document).ready(function(){
     $("#videos").sortable({
           items: 'tbody',
           placeholder: "ui-state-highlight",
@@ -1474,7 +1473,7 @@ $(document).ready(function(){
              reset_video_order();
           }
     });
-});                
+}); 
 
 function reset_video_order()
 {
@@ -1489,9 +1488,9 @@ var video_row = <?php echo $video_row; ?>;
 function addVideo() {
     html  = '<tbody id="video-row' + video_row + '">';
 	html += '  <tr>';
-	html += '    <td class="left"><textarea rows="8" cols="40" name="product_video[' + video_row  + '][video]" id="video' + video_row  + '" style="width:95%;" /></textarea></td>';
-	html += '    <td class="right"><input class="video_sort" type="text" name="product_video[' + video_row + '][sort_order]" value="" size="2" /></td>';
-	html += '    <td class="left"><a onclick="$(\'#video-row' + image_row  + '\').remove();reset_video_order();" class="button"><?php echo $button_remove; ?></a></td>';
+	html += '    <td class="text-left"><textarea rows="8" cols="40" name="product_video[' + video_row  + '][video]" id="video' + video_row  + '" style="width:95%;" /></textarea></td>';
+	html += '    <td class="text-right"><input class="video_sort" type="text" name="product_video[' + video_row + '][sort_order]" value="" size="2" /></td>';
+	html += '    <td class="text-left"><a onclick="$(\'#video-row' + image_row  + '\').remove();reset_video_order();" class="button"><?php echo $button_remove; ?></a></td>';
 	html += '  </tr>';
 	html += '</tbody>';
 	

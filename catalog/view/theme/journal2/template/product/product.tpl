@@ -312,6 +312,7 @@
             <?php if ($reward) { ?>
             <li class="p-rewards"><?php echo $text_reward; ?></span> <span class="p-rewards"><?php echo $reward; ?></li>
             <?php } ?>
+            <li class="p-weight"><?php echo $text_weight; ?></span> <span class="p-weight"><?php echo $weight; ?> <?php echo $weight_class; ?></li>
             <li class="p-stock"><?php echo $text_stock; ?></span> <span class="journal-stock <?php echo isset($stock_status) ? $stock_status : ''; ?>"><?php echo $stock; ?></li>
           </ul>
           <?php if($this->journal2->settings->get('product_sold')): ?>
@@ -405,9 +406,9 @@
             <div class="option form-group<?php echo ($option['required'] ? ' required' : ''); ?> option-<?php echo $option['type']; ?>">
               <label class="control-label"><?php echo $option['name']; ?></label>
               <div id="input-option<?php echo $option['product_option_id']; ?>">
-                <?php foreach ($option['product_option_value'] as $option_value) { ?>
-                <div class="radio">
-                  <label>
+                <?php foreach ($option['product_option_value'] as $option_value) { ?>                
+                <div class="radio">                    
+                  <label>                      
                     <input type="radio" name="option[<?php echo $option['product_option_id']; ?>]" value="<?php echo $option_value['product_option_value_id']; ?>" />
                     <img src="<?php echo $option_value['image']; ?>" alt="<?php echo $option_value['name'] . ($option_value['price'] ? ' ' . $option_value['price_prefix'] . $option_value['price'] : ''); ?>" class="img-thumbnail" /> <?php echo $option_value['name']; ?>
                     <?php if ($option_value['price']) { ?>

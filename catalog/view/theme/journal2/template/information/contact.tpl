@@ -35,6 +35,9 @@
             <div class="col-sm-3 col"><strong><?php echo $text_telephone; ?></strong><br>
               <?php echo $telephone; ?><br />
               <br />
+              <strong><?php echo $text_email; ?></strong><br>
+              <?php echo $store_email; ?><br />
+              <br />
               <?php if ($fax) { ?>
               <strong><?php echo $text_fax; ?></strong><br>
               <?php echo $fax; ?>

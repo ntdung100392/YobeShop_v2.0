@@ -2,6 +2,13 @@
 class ControllerProductProduct extends Controller {
 	private $error = array();
 
+		public function getWeightClass($weight_class_id) {
+        $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "weight_class wc LEFT JOIN " . DB_PREFIX . "weight_class_description wcd ON (wc.weight_class_id = wcd.weight_class_id) WHERE wc.weight_class_id = '" . (int)$weight_class_id . "' AND wcd.language_id = '" . (int)$this->config->get('config_language_id') . "'");
+
+        return $query->row;
+    }
+		
+
 	public function index() {
 		$this->load->language('product/product');
 
@@ -246,6 +253,9 @@ class ControllerProductProduct extends Controller {
 			$data['text_related'] = $this->language->get('text_related');
 			$data['text_loading'] = $this->language->get('text_loading');
 
+		$data['text_weight'] = $this->language->get('text_weight');
+		
+
 			$data['entry_qty'] = $this->language->get('entry_qty');
 			$data['entry_name'] = $this->language->get('entry_name');
 			$data['entry_review'] = $this->language->get('entry_review');
@@ -338,7 +348,38 @@ $data['thumb_fixed'] = $this->model_tool_image->resize($product_info['image'], $
                         $data['videos'][] = array(
                                 'video' => $result['video']
                         );
-                }                
+                }
+				
+                if ($product_info['weight']) {
+                $explode_temp = explode(".",$product_info['weight']);
+                if($explode_temp[1]>0){
+                    $remove_zero = explode("0",$explode_temp[1]);
+                    $product_info['weight'] = ($explode_temp[0].".".$remove_zero[0]);
+                }else{
+                    $product_info['weight'] = $explode_temp[0];
+                }
+                $data['weight'] = $product_info['weight'];
+            } else {
+                $data['weight'] = '';
+            }
+
+            //Get weight class to frontpage
+            $weight_class = $this->getWeightClass($product_info['weight_class_id']);
+
+            if ($product_info['weight_class_id']) {
+                $data['weight_class'] = $weight_class['unit'];
+            } else {
+                $data['weight_class'] = '';
+            }
+
+            if (isset($this->request->post['weight_class_id'])) {
+                $data['weight_class_id'] = $this->request->post['weight_class_id'];
+            } elseif (!empty($product_info)) {
+                $data['weight_class_id'] = $product_info['weight_class_id'];
+            } else {
+                $data['weight_class_id'] = $this->config->get('config_weight_class_id');
+            }
+                
         
 
 			$results = $this->model_catalog_product->getProductImages($this->request->get['product_id']);
