@@ -1,27 +1,28 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://trungdung.ddns.net/yobeshopv20/');
+define('HTTP_SERVER', 'http://yobeshop.com/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://trungdung.ddns.net/yobeshopv20/');
+define('HTTPS_SERVER', 'http://yobeshop.com/');
 
 // DIR
-define('DIR_APPLICATION', '/PHP/yobeshopv20/catalog/');
-define('DIR_SYSTEM', '/PHP/yobeshopv20/system/');
-define('DIR_LANGUAGE', '/PHP/yobeshopv20/catalog/language/');
-define('DIR_TEMPLATE', '/PHP/yobeshopv20/catalog/view/theme/');
-define('DIR_CONFIG', '/PHP/yobeshopv20/system/config/');
-define('DIR_IMAGE', '/PHP/yobeshopv20/image/');
-define('DIR_CACHE', '/PHP/yobeshopv20/system/cache/');
-define('DIR_DOWNLOAD', '/PHP/publish/yobeshopv20/system/download/');
-define('DIR_UPLOAD', '/PHP/yobeshopv20/system/upload/');
-define('DIR_MODIFICATION', '/PHP/yobeshopv20/system/modification/');
-define('DIR_LOGS', '/PHP/yobeshopv20/system/logs/');
+define('DIR_APPLICATION', '/home/public_html/catalog/');
+define('DIR_SYSTEM', '/home/public_html/system/');
+define('DIR_LANGUAGE', '/home/public_html/catalog/language/');
+define('DIR_TEMPLATE', '/home/public_html/catalog/view/theme/');
+define('DIR_CONFIG', '/home/public_html/system/config/');
+define('DIR_IMAGE', '/home/public_html/image/');
+define('DIR_CACHE', '/home/public_html/system/cache/');
+define('DIR_DOWNLOAD', '/home/public_html/system/download/');
+define('DIR_UPLOAD', '/home/public_html/system/upload/');
+define('DIR_MODIFICATION', '/home/public_html/system/modification/');
+define('DIR_LOGS', '/home/public_html/system/logs/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'root');
+define('DB_HOSTNAME', 'db03.serverhosting.vn');
+define('DB_USERNAME', 'yob4d9fe_newv20');
 define('DB_PASSWORD', 'Twinstran@021094');
-define('DB_DATABASE', 'yobeshopv20');
+define('DB_DATABASE', 'yob4d9fe_v20');
 define('DB_PREFIX', '');
+?>
