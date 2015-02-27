@@ -312,6 +312,7 @@
             <?php if ($reward) { ?>
             <li class="p-rewards"><?php echo $text_reward; ?></span> <span class="p-rewards"><?php echo $reward; ?></li>
             <?php } ?>
+            <li class="p-weight"><?php echo $text_category_name; ?></span> <span class="p-weight"><?php echo $category_name; ?></li>
             <li class="p-weight"><?php echo $text_weight; ?></span> <span class="p-weight"><?php echo $weight; ?> <?php echo $weight_class; ?></li>
             <li class="p-stock"><?php echo $text_stock; ?></span> <span class="journal-stock <?php echo isset($stock_status) ? $stock_status : ''; ?>"><?php echo $stock; ?></li>
           </ul>

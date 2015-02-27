@@ -53,7 +53,7 @@
 		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "product_video WHERE product_id = '" . (int)$product_id . "' ORDER BY sort_order ASC");
 
 		return $query->rows;
-            }           
+            }
             ]]></add>
         </operation>
     </file>
@@ -75,6 +75,7 @@
             <search><![CDATA[$_['text_year']                = 'year';]]></search>
             <add position="after"><![CDATA[
 			$_['text_weight']                = 'Weight:';
+			$_['text_category_name']= 'Category:';
         ]]></add>
         </operation>        
     </file>
@@ -82,7 +83,8 @@
         <operation>
             <search><![CDATA[$_['text_error']        = 'Không có sản phẩm!';]]></search>
             <add position="after"><![CDATA[
-			$_['text_weight']                = 'Trọng lượng:';
+			$_['text_weight']                = 'Khối lượng:';
+			$_['text_category_name']= 'Loại sản phẩm:';
         ]]></add>
         </operation>        
     </file>
@@ -95,17 +97,39 @@
 
         return $query->row;
     }
+	public function getCategoryName($category_id) {
+        $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "category_description WHERE category_id = '" . (int)$category_id . "' and language_id = '" . (int)$this->config->get('config_language_id') . "'");
+
+        return $query->rows;
+    }
 		]]></add>
 	</operation>
 	<operation>
 		<search><![CDATA[$data['text_loading'] = $this->language->get('text_loading');]]></search>
 		<add position="after"><![CDATA[
 		$data['text_weight'] = $this->language->get('text_weight');
+		$data['text_category_name'] = $this->language->get('text_category_name');
 		]]></add>
 	</operation>
         <operation>
             <search><![CDATA[$data['images'] = array();]]></search>
             <add position="after"><![CDATA[
+			$product_info = $this->model_catalog_product->getProduct($product_id);
+        $category = $this->model_catalog_product->getCategories($product_id);
+        foreach($category as $categories){
+            $query=$this->db->query("SELECT * FROM " . DB_PREFIX . "category WHERE category_id = '" . (int)$categories['category_id'] . "' AND parent_id != 0");
+            if($query->num_rows){
+                $category_child = $query->row['category_id'];
+            }
+        }
+        $category_name = $this->getCategoryName($category_child);
+        $product_info['category_name']=$category_name[0]['name'];
+		
+			if ($product_info['category_name']) {
+                $data['category_name'] = $product_info['category_name'];
+            } else {
+                $data['category_name'] = '';
+            }
                 // Video
                 $data['videos'] = array();
 

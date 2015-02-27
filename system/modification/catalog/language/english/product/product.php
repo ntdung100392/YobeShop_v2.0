@@ -32,6 +32,7 @@ $_['text_month']               = 'month';
 $_['text_year']                = 'year';
 
 			$_['text_weight']                = 'Weight:';
+			$_['text_category_name']= 'Category:';
         
 
 // Entry

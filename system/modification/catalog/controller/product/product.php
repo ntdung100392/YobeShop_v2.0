@@ -7,6 +7,11 @@ class ControllerProductProduct extends Controller {
 
         return $query->row;
     }
+	public function getCategoryName($category_id) {
+        $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "category_description WHERE category_id = '" . (int)$category_id . "' and language_id = '" . (int)$this->config->get('config_language_id') . "'");
+
+        return $query->rows;
+    }
 		
 
 	public function index() {
@@ -254,6 +259,7 @@ class ControllerProductProduct extends Controller {
 			$data['text_loading'] = $this->language->get('text_loading');
 
 		$data['text_weight'] = $this->language->get('text_weight');
+		$data['text_category_name'] = $this->language->get('text_category_name');
 		
 
 			$data['entry_qty'] = $this->language->get('entry_qty');
@@ -338,6 +344,22 @@ $data['thumb_fixed'] = $this->model_tool_image->resize($product_info['image'], $
 
 			$data['images'] = array();
 
+			$product_info = $this->model_catalog_product->getProduct($product_id);
+        $category = $this->model_catalog_product->getCategories($product_id);
+        foreach($category as $categories){
+            $query=$this->db->query("SELECT * FROM " . DB_PREFIX . "category WHERE category_id = '" . (int)$categories['category_id'] . "' AND parent_id != 0");
+            if($query->num_rows){
+                $category_child = $query->row['category_id'];
+            }
+        }
+        $category_name = $this->getCategoryName($category_child);
+        $product_info['category_name']=$category_name[0]['name'];
+		
+			if ($product_info['category_name']) {
+                $data['category_name'] = $product_info['category_name'];
+            } else {
+                $data['category_name'] = '';
+            }
                 // Video
                 $data['videos'] = array();
 
