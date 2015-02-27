@@ -37,7 +37,8 @@ $_['text_year']                               = 'year';
 $_['text_tags']         = 'Tag:';
 $_['text_error']        = 'Không có sản phẩm!';
 
-			$_['text_weight']                = 'Trọng lượng:';
+			$_['text_weight']                = 'Khối lượng:';
+			$_['text_category_name']= 'Loại sản phẩm:';
         
 
 // Entry
