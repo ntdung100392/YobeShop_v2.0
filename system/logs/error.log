@@ -750,6 +750,7 @@
 2015-02-26 19:57:08 - PHP Warning:  Division by zero in C:\PHP\YobeShopv20\catalog\view\theme\journal2\template\journal2\assets\css.tpl on line 790
 2015-02-26 19:59:56 - PHP Warning:  Division by zero in C:\PHP\YobeShopv20\catalog\view\theme\journal2\template\journal2\assets\css.tpl on line 790
 2015-02-27 8:55:09 - PHP Warning:  Division by zero in C:\PHP\YobeShopv20\catalog\view\theme\journal2\template\journal2\assets\css.tpl on line 790
+<<<<<<< HEAD
 2015-03-09 13:17:43 - PHP Warning:  Division by zero in C:\PHP\YobeShopv20\catalog\view\theme\journal2\template\journal2\assets\css.tpl on line 790
 2015-03-14 15:14:31 - PHP Warning:  Division by zero in C:\PHP\YobeShopv20\catalog\view\theme\journal2\template\journal2\assets\css.tpl on line 790
 2015-03-14 15:14:36 - PHP Notice:  Undefined variable: phone in C:\PHP\YobeShopv20\catalog\view\theme\journal2\template\information\contact.tpl on line 135
@@ -765,3 +766,413 @@
 2015-03-14 16:50:55 - PHP Warning:  Division by zero in C:\PHP\YobeShopv20\catalog\view\theme\journal2\template\journal2\assets\css.tpl on line 790
 2015-03-14 16:50:58 - PHP Warning:  Division by zero in C:\PHP\YobeShopv20\catalog\view\theme\journal2\template\journal2\assets\css.tpl on line 790
 2015-03-14 16:51:24 - PHP Warning:  Division by zero in C:\PHP\YobeShopv20\catalog\view\theme\journal2\template\journal2\assets\css.tpl on line 790
+=======
+2015-03-01 8:11:46 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:46 - PHP Warning:  Division by zero in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 328
+2015-03-01 8:11:46 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:47 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:47 - PHP Warning:  Division by zero in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 328
+2015-03-01 8:11:47 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:47 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:47 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\catalog\controller\module\journal2_static_banners.php on line 108
+2015-03-01 8:11:47 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:47 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\catalog\controller\module\journal2_static_banners.php on line 108
+2015-03-01 8:11:47 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:47 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\catalog\controller\module\journal2_static_banners.php on line 108
+2015-03-01 8:11:47 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:47 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:47 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.product.latest.2.0.1.10.1425197508): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:11:48 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:11:48 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:11:48 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:11:48 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:11:48 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.product.bestseller.2.0.1.6.1425197508): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:11:48 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:11:48 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:11:48 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:11:48 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:11:48 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:11:48 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.language.1425197508): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:11:48 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:11:48 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:11:48 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:11:48 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:11:48 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:11:48 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.currency.1425197508): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:11:48 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:11:48 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:11:48 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:11:48 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:11:48 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  Division by zero in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 328
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  Division by zero in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 328
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\catalog\controller\module\journal2_static_banners.php on line 108
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\catalog\controller\module\journal2_static_banners.php on line 108
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\catalog\controller\module\journal2_static_banners.php on line 108
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.product.latest.2.0.1.10.1425197574): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:12:54 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:12:54 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:12:54 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:12:54 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:12:54 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.product.bestseller.2.0.1.6.1425197574): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:12:54 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:12:54 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:12:54 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:12:54 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:12:54 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:12:54 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.language.1425197574): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:12:54 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:12:54 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:12:54 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:12:54 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:12:54 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:12:54 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.currency.1425197574): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:12:54 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:12:54 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:12:54 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:12:54 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:12:54 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:13:43 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:43 - PHP Warning:  Division by zero in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 328
+2015-03-01 8:13:43 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:43 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:43 - PHP Warning:  Division by zero in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 328
+2015-03-01 8:13:43 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:43 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:43 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\catalog\controller\module\journal2_static_banners.php on line 108
+2015-03-01 8:13:43 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:43 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\catalog\controller\module\journal2_static_banners.php on line 108
+2015-03-01 8:13:43 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:43 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\catalog\controller\module\journal2_static_banners.php on line 108
+2015-03-01 8:13:43 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.product.latest.2.0.1.10.1425197624): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:13:44 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:13:44 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:13:44 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:13:44 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:13:44 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.product.bestseller.2.0.1.6.1425197624): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:13:44 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:13:44 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:13:44 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:13:44 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:13:44 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:44 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.language.1425197624): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:13:44 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:13:44 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:13:44 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:13:44 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:13:44 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:13:44 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.currency.1425197624): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:13:44 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:13:44 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:13:44 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:13:44 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:13:44 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  Division by zero in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 328
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  Division by zero in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 328
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\catalog\controller\module\journal2_static_banners.php on line 108
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\catalog\controller\module\journal2_static_banners.php on line 108
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\catalog\controller\module\journal2_static_banners.php on line 108
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.product.latest.2.0.1.10.1425197639): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:13:59 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:13:59 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:13:59 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:13:59 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:13:59 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.product.bestseller.2.0.1.6.1425197639): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:13:59 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:13:59 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:13:59 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:13:59 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:13:59 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:13:59 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.language.1425197639): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:13:59 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:13:59 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:13:59 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:13:59 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:13:59 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:13:59 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.currency.1425197639): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:13:59 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:13:59 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:13:59 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:13:59 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:13:59 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:14:38 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:38 - PHP Warning:  Division by zero in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 328
+2015-03-01 8:14:38 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:38 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:38 - PHP Warning:  Division by zero in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 328
+2015-03-01 8:14:38 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:38 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:38 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\catalog\controller\module\journal2_static_banners.php on line 108
+2015-03-01 8:14:38 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:38 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\catalog\controller\module\journal2_static_banners.php on line 108
+2015-03-01 8:14:38 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:38 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\catalog\controller\module\journal2_static_banners.php on line 108
+2015-03-01 8:14:38 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.product.latest.2.0.1.10.1425197679): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:14:39 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:14:39 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:14:39 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:14:39 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:14:39 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.product.bestseller.2.0.1.6.1425197679): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:14:39 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:14:39 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:14:39 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:14:39 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:14:39 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  getimagesize(/PHP/yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:14:39 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.language.1425197679): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:14:39 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:14:39 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:14:39 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:14:39 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:14:39 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:14:39 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.currency.1425197679): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:14:39 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:14:39 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:14:39 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:14:39 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:14:39 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  Division by zero in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 328
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  Division by zero in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 328
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\catalog\controller\module\journal2_static_banners.php on line 108
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\catalog\controller\module\journal2_static_banners.php on line 108
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\catalog\controller\module\journal2_static_banners.php on line 108
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.product.latest.2.0.1.10.1425197700): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:15:00 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:15:00 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:15:00 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:15:00 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:15:00 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.product.bestseller.2.0.1.6.1425197700): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:15:00 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:15:00 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:15:00 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:15:00 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:15:00 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  getimagesize(\PHP\yobeshopv20/image/no_image.png): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\journal2\classes\journal2_utils.php on line 319
+2015-03-01 8:15:00 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.language.1425197700): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:15:00 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:15:00 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:15:00 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:15:00 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:15:00 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:15:00 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.currency.1425197700): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:15:00 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:15:00 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:15:00 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:15:00 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:15:00 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:17:44 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.product.latest.2.0.1.10.1425197864): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:17:44 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:17:44 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:17:44 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:17:44 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:17:44 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:17:44 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.product.bestseller.2.0.1.6.1425197864): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:17:44 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:17:44 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:17:44 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:17:44 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:17:44 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:17:44 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.language.1425197864): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:17:44 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:17:44 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:17:44 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:17:44 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:17:44 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+2015-03-01 8:17:44 - PHP Warning:  fopen(/PHP/yobeshopv20/system/cache/cache.currency.1425197864): failed to open stream: No such file or directory in C:\PHP\YobeShopv20\system\library\cache\file.php on line 49
+2015-03-01 8:17:44 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 51
+2015-03-01 8:17:44 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 53
+2015-03-01 8:17:44 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 55
+2015-03-01 8:17:44 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 57
+2015-03-01 8:17:44 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\PHP\YobeShopv20\system\library\cache\file.php on line 59
+>>>>>>> 0f13475d706f4c65ec4cb82775e84604ef25f375

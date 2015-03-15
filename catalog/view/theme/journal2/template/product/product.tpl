@@ -142,17 +142,17 @@
             <?php if (!$this->journal2->settings->get('hide_product_description')) { ?>
             <li <?php if ($is_active) { echo 'class="active"'; $is_active = false; } ;?>><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
             <?php } ?>
+            <?php if ($guide) { ?>
+            <li <?php if ($is_active) { echo 'class="active"'; $is_active = false; } ;?>><a href="#tab-guide" data-toggle="tab"><?php echo $tab_guide; ?></a></li>
+            <?php } ?>
             <?php if ($attribute_groups) { ?>
-            <li <?php if ($is_active) { echo 'class="active"'; $is_active = false; } ;?>><a href="#tab-specification" data-toggle="tab"><?php echo $tab_attribute; ?></a></li>
+            <li <?php if ($is_active) { echo 'class="active"'; $is_active = false; } ;?>><a href="#tab-attribute" data-toggle="tab"><?php echo $tab_attribute; ?></a></li>
             <?php } ?>
             <?php if ($review_status) { ?>
             <li <?php if ($is_active) { echo 'class="active"'; $is_active = false; } ;?>><a href="#tab-review" data-toggle="tab"><?php echo $tab_review; ?></a></li>
             <?php } ?>
             <?php if(isset($videos) && sizeof($videos) > 0){ ?>
             <li <?php if ($is_active) { echo 'class="active"'; $is_active = false; } ;?>><a href="#tab-video" data-toggle="tab"><?php echo $text_video; ?></a></li>
-                <?php } ?>
-            <?php if(isset($files) && sizeof($files) > 0){ ?>
-            <li <?php if ($is_active) { echo 'class="active"'; $is_active = false; } ;?>><a href="#tab-download" data-toggle="tab"><?php echo $text_download; ?></a></li>
                 <?php } ?>
             <?php $index = 0; foreach ($this->journal2->settings->get('additional_product_tabs', array()) as $tab): $index++; ?>
             <li <?php if ($is_active) { echo 'class="active"'; $is_active = false; } ;?>><a href="#additional-product-tab-<?php echo $index; ?>" data-toggle="tab"><?php echo $tab['name']; ?></a></li>
@@ -163,7 +163,9 @@
             <?php if (!$this->journal2->settings->get('hide_product_description')) { ?>
             <div class="tab-pane tab-content <?php if ($is_active) { echo 'active'; $is_active = false; } ;?>" id="tab-description"><?php echo $description; ?></div>
             <?php } ?>
-            
+            <?php if($guide){ ?>
+            <div id="tab-guide" class="tab-pane tab-content <?php if ($is_active) { echo 'active'; $is_active = false; } ;?>"><?php echo $guide; ?></div>
+            <?php } ?>
             <?php if(isset($videos) && sizeof($videos) > 0){ ?>
             <div id="tab-video" class="tab-pane tab-content <?php if ($is_active) { echo 'active'; $is_active = false; } ;?>">
             <?php foreach ($videos as $video) {
@@ -171,21 +173,6 @@
             } ?>
             </div>
             <?php } ?>
-            <?php if(isset($files) && sizeof($files) > 0){ ?>
-            <div id="tab-download" class="tab-pane tab-content <?php if ($is_active) { echo 'active'; $is_active = false; } ;?>">
-            <?php $i = 1; ?>
-            <?php foreach ($files as $file) {
-            echo sprintf('<div class="file">
-            <a href="%s" target="_blank">
-            <div class="file_type"><img src="%s" /></div>
-            <div class="filename">%s</div>
-            <div class="description">%s</div></a>
-            </div>',$file['path'], $file['icon'], $file['filename'],$file['description']);
-            } ?>
-            </div>
-            <?php } ?>         
-            
-            
             <?php if ($attribute_groups) { ?>
             <div class="tab-pane tab-content <?php if ($is_active) { echo 'active'; $is_active = false; } ;?>" id="tab-specification">
               <table class="table table-bordered attribute">

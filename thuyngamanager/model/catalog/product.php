@@ -431,6 +431,7 @@ class ModelCatalogProduct extends Model {
 			);
 		}
 
+                print_r($product_description_data);
 		return $product_description_data;
 	}
 
