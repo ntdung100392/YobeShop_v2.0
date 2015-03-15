@@ -15,7 +15,7 @@ $_['text_download']      = 'Tải về';
 $_['text_reward']        = 'Điểm Thưởng'; 
 $_['text_return']        = 'Yêu cầu trả hàng';
 $_['text_recurring']     = 'Thanh toán định kỳ'; 
-$_['text_transaction']   = 'Giao dịch của bạn'; 
+$_['text_transaction']   = 'Tiền tích lũy'; 
 $_['text_transactions']  = 'Các giao dịch'; 
 $_['text_newsletter']    = 'Đăng kí / hủy đăng kí thông báo';
 ?>

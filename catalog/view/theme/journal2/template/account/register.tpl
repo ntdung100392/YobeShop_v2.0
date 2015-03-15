@@ -285,13 +285,13 @@
           <div class="form-group required">
             <label class="col-sm-2 control-label" for="input-country"><?php echo $entry_country; ?></label>
             <div class="col-sm-10">
-              <select disabled="disabled" name="country_id" id="input-country" class="form-control">
+              <select name="country_id" id="input-country" class="form-control">
                 <option value=""><?php echo $text_select; ?></option>
                 <?php foreach ($countries as $country) { ?>
                 <?php if ($country['country_id'] == $country_id) { ?>
                 <option value="<?php echo $country['country_id']; ?>" selected="selected"><?php echo $country['name']; ?></option>
                 <?php } else { ?>
-                <option value="<?php echo $country['country_id']; ?>"><?php echo $country['name']; ?></option>
+                <option disabled="disabled" value="<?php echo $country['country_id']; ?>"><?php echo $country['name']; ?></option>
                 <?php } ?>
                 <?php } ?>
               </select>

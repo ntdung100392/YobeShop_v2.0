@@ -67,7 +67,7 @@ $_['entry_address_2']                = 'Địa chỉ dòng 2:';
 $_['entry_postcode']                 = 'Mã Bưu Điện:';
 $_['entry_city']                     = 'Thành Phố:';
 $_['entry_country']                  = 'Quốc Gia:';
-$_['entry_zone']                     = 'Vùng / Tiểu Bang:';
+$_['entry_zone']                     = 'Tỉnh / Thành Phố:';
 $_['entry_newsletter']               = 'Tôi muốn đăng kí nhận bản tin %s .';
 $_['entry_shipping'] 	             = 'Địa chỉ nhận hàng và địa chỉ thanh toán của tôi giống nhau.';
 

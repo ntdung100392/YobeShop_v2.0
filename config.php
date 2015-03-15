@@ -1,9 +1,9 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://trungdung.ddns.net/yobeshopv20/');
+define('HTTP_SERVER', 'http://localhost:8080/yobeshopv20/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://trungdung.ddns.net/yobeshopv20/');
+define('HTTPS_SERVER', 'http://localhost:8080/yobeshopv20/');
 
 // DIR
 define('DIR_APPLICATION', '/PHP/yobeshopv20/catalog/');

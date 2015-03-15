@@ -14,7 +14,7 @@ class ControllerInformationContact extends Controller {
 			$mail->setTo($this->config->get('config_email'));
 			$mail->setFrom($this->request->post['email']);
 			$mail->setSender($this->request->post['name']);
-			$mail->setSubject(sprintf($this->language->get('email_subject'), $this->request->post['name']));
+			$mail->setSubject(sprintf($this->language->get('email_subject'), $this->request->post['phone']));
 			$mail->setText(strip_tags($this->request->post['enquiry']));
 			$mail->send();
 
@@ -47,6 +47,7 @@ class ControllerInformationContact extends Controller {
 
 		$data['entry_name'] = $this->language->get('entry_name');
 		$data['entry_email'] = $this->language->get('entry_email');
+                $data['entry_phone'] = $this->language->get('entry_phone');
 		$data['entry_enquiry'] = $this->language->get('entry_enquiry');
 		$data['entry_captcha'] = $this->language->get('entry_captcha');
 
@@ -62,6 +63,12 @@ class ControllerInformationContact extends Controller {
 			$data['error_email'] = $this->error['email'];
 		} else {
 			$data['error_email'] = '';
+		}
+                
+                if (isset($this->error['phone'])) {
+			$data['error_phone'] = $this->error['phone'];
+		} else {
+			$data['error_phone'] = '';
 		}
 
 		if (isset($this->error['enquiry'])) {
@@ -136,6 +143,12 @@ class ControllerInformationContact extends Controller {
 		} else {
 			$data['email'] = $this->customer->getEmail();
 		}
+                
+                if (isset($this->request->post['phone'])) {
+			$data['phone'] = $this->request->post['phone'];
+		} else {
+			$data['phone'] = '';
+		}
 
 		if (isset($this->request->post['enquiry'])) {
 			$data['enquiry'] = $this->request->post['enquiry'];
@@ -205,6 +218,10 @@ class ControllerInformationContact extends Controller {
 	protected function validate() {
 		if ((utf8_strlen($this->request->post['name']) < 3) || (utf8_strlen($this->request->post['name']) > 32)) {
 			$this->error['name'] = $this->language->get('error_name');
+		}
+                
+                if ((utf8_strlen($this->request->post['phone']) < 3) || (utf8_strlen($this->request->post['phone']) > 32)) {
+			$this->error['phone'] = $this->language->get('error_phone');
 		}
 
 		if (!preg_match('/^[^\@]+@.*.[a-z]{2,15}$/i', $this->request->post['email'])) {

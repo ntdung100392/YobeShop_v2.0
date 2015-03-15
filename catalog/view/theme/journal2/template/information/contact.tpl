@@ -130,6 +130,15 @@
             </div>
           </div>
           <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-phone"><?php echo $entry_phone; ?></label>
+            <div class="col-sm-10">
+              <input type="text" name="phone" value="<?php echo $phone; ?>" id="input-phone" class="form-control" />
+              <?php if ($error_email) { ?>
+              <div class="text-danger"><?php echo $error_phone; ?></div>
+              <?php } ?>
+            </div>
+          </div>
+          <div class="form-group required">
             <label class="col-sm-2 control-label" for="input-enquiry"><?php echo $entry_enquiry; ?></label>
             <div class="col-sm-10">
               <textarea name="enquiry" rows="10" id="input-enquiry" class="form-control"><?php echo $enquiry; ?></textarea>
