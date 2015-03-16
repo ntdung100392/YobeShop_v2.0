@@ -1,11 +1,11 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://trungdung.ddns.net/YobeShopv20/thuyngamanager/');
-define('HTTP_CATALOG', 'http://trungdung.ddns.net/YobeShopv20/');
+define('HTTP_SERVER', 'http://localhost:8080/YobeShopv20/thuyngamanager/');
+define('HTTP_CATALOG', 'http://localhost:8080/YobeShopv20/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://trungdung.ddns.net/YobeShopv20/thuyngamanager/');
-define('HTTPS_CATALOG', 'http://trungdung.ddns.net/YobeShopv20/');
+define('HTTPS_SERVER', 'http://localhost:8080/YobeShopv20/thuyngamanager/');
+define('HTTPS_CATALOG', 'http://localhost:8080/YobeShopv20/');
 
 // DIR
 define('DIR_APPLICATION', '/PHP/yobeshopv20/thuyngamanager/');
