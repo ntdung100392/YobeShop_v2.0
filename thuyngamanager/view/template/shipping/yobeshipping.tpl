@@ -25,18 +25,22 @@
       </div>
       <div class="panel-body">
         <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="form-layout" class="form-horizontal">
-            <div class="table-responsive">
-		  <table class="table table-bordered table-hover">
-           <tr>
-              <td class="text-left">
-              <?php foreach($languages as $language){ ?><div class="input-group required"><span class="input-group-addon"><img src="view/image/flags/<?php echo $language['image']; ?>" title="<?php echo $language['name']; ?>" /></span>
+			<div class="form-group required">
+			<label class="col-sm-2 control-label" for="input-total"></label>
+		  <div class="col-sm-10">
+              <?php foreach($languages as $language){ ?><div class="input-group"><span class="input-group-addon"><img src="view/image/flags/<?php echo $language['image']; ?>" title="<?php echo $language['name']; ?>" /></span>
               <input type="text" name="yobeshipping_group_shipping[<?php echo $language['language_id']; ?>][shipping_name]" value="<?php echo $yobeshipping_group_shipping[ $language['language_id']]['shipping_name'];?>" placeholder="<?php echo $entry_shipping_title; ?>" class="form-control" />
               </div>
               <?php if (isset($error_name[$language['language_id']])) { ?>
                     <div class="text-danger"><?php echo $error_name[$language['language_id']]; ?></div>
                <?php } ?>
-              <?php } ?></td>
-              <td colspan="4"><select name="yobeshipping_status" id="input-status" class="form-control">
+              <?php } ?>
+			  </div>
+			  </div>
+			  <div class="form-group required">
+			  <label class="col-sm-2 control-label" for="input-total"><span data-toggle="tooltip" title="Enable">Enable</span></label>
+			  <div class="col-sm-10">
+			  <select name="yobeshipping_status" id="input-status" class="form-control">
               <?php if ($yobeshipping_status) { ?>
               <option value="1" selected="selected"><?php echo $text_enabled; ?></option>
               <option value="0"><?php echo $text_disabled; ?></option>
@@ -44,31 +48,38 @@
               <option value="1"><?php echo $text_enabled; ?></option>
               <option value="0" selected="selected"><?php echo $text_disabled; ?></option>
               <?php } ?>
-            </select></td>
-             <td class="text-right"><input type="text" name="yobeshipping_sort_order" value="<?php echo $yobeshipping_sort_order; ?>" placeholder="<?php echo $entry_sort_order; ?>" class="form-control" /></td>
-          </tr>	
-          </table>
+            </select>
+			</div>
+			</div>
+			<div class="form-group required">
+			<label class="col-sm-2 control-label" for="input-total"><span data-toggle="tooltip" title="Sort Order">Sort Order</span></label>
+             <div class="col-sm-10">
+			 <input type="text" name="yobeshipping_sort_order" value="<?php echo $yobeshipping_sort_order; ?>" placeholder="<?php echo $entry_sort_order; ?>" class="form-control" />
+			 </div>
+			 </div>
+			 <div class="table-responsive">
           <table id="shiping" class="table table-bordered table-hover">
           	<thead>
-              <td class="required"><?php echo $entry_name;?></td>
+              <td class="text-left required"><?php echo $entry_name;?></td>
               <td><?php echo $entry_cost;?></td>
               <td><?php echo $entry_tax_class;?></td>
               <td><?php echo $entry_geo_zone;?></td>
+			  <td><?php echo $entry_geo_zone;?></td>
             </thead>
             <tbody>
               <?php $shipping_row = 0; ?>
               <?php if(!empty($multiple_shippings['yobeshipping'])){ ?>
                 <?php foreach($multiple_shippings['yobeshipping'] as $multiple_shipping){ ?>
                 <tr id="shipping-row<?php echo $shipping_row; ?>">
-                  <td class="text-left"><?php foreach($languages as $language){ ?><div class="input-group required"><span class="input-group-addon"><img src="view/image/flags/<?php echo $language['image']; ?>" title="<?php echo $language['name']; ?>" /></span><input type="text" name="yobeshipping[<?php echo $shipping_row; ?>][shipping_description][<?php echo $language['language_id']; ?>][name]" value="<?php echo $multiple_shipping['shipping_description'][$language['language_id']]['name']; ?>" placeholder="<?php echo $entry_name; ?>" class="form-control" />
+                  <td class="text-center col-sm-4"><?php foreach($languages as $language){ ?><div class="input-group required"><span class="input-group-addon"><img src="view/image/flags/<?php echo $language['image']; ?>" title="<?php echo $language['name']; ?>" /></span><input type="text" name="yobeshipping[<?php echo $shipping_row; ?>][shipping_description][<?php echo $language['language_id']; ?>][name]" value="<?php echo $multiple_shipping['shipping_description'][$language['language_id']]['name']; ?>" placeholder="<?php echo $entry_name; ?>" class="form-control" />
                   </div>
                   <?php if (isset($error_shipping_option[$shipping_row][$language['language_id']])) { ?>
                   <div class="text-danger"><?php echo $error_shipping_option[$shipping_row][$language['language_id']]; ?></div>
                   <?php } ?>
                   <?php } ?>
                   </td>
-                  <td class="text-right"><input type="text" name="yobeshipping[<?php echo $shipping_row; ?>][cost]" value="<?php echo $multiple_shipping['cost']; ?>" placeholder="<?php echo $entry_cost; ?>" class="form-control" /></td>
-                  <td class="text-right"><select name="yobeshipping[<?php echo $shipping_row; ?>][yobeshipping_tax_class_id]" id="input-tax-class" class="form-control">
+                  <td class="text-right col-sm-2"><input type="text" name="yobeshipping[<?php echo $shipping_row; ?>][cost]" value="<?php echo $multiple_shipping['cost']; ?>" placeholder="<?php echo $entry_cost; ?>" class="form-control" /></td>
+                  <td class="text-right col-sm-2"><select name="yobeshipping[<?php echo $shipping_row; ?>][yobeshipping_tax_class_id]" id="input-tax-class" class="form-control">
                   <option value="0"><?php echo $text_none; ?></option>
                   <?php foreach ($tax_classes as $tax_class) { ?>
                   <?php if ($tax_class['tax_class_id'] == $multiple_shipping['yobeshipping_tax_class_id']) { ?>
@@ -78,7 +89,7 @@
                   <?php } ?>
                   <?php } ?>
                 </select></td>
-                  <td class="text-right"><select name="yobeshipping[<?php echo $shipping_row; ?>][yobeshipping_geo_zone_id]" id="input-geo-zone" class="form-control">
+                  <td class="text-right col-sm-4"><select name="yobeshipping[<?php echo $shipping_row; ?>][yobeshipping_geo_zone_id]" id="input-geo-zone" class="form-control">
                   <option value="0"><?php echo $text_all_zones; ?></option>
                   <?php foreach ($geo_zones as $geo_zone) { ?>
                   <?php if ($geo_zone['geo_zone_id'] == $multiple_shipping['yobeshipping_geo_zone_id']) { ?>
@@ -88,7 +99,7 @@
                   <?php } ?>
                   <?php } ?>
                 </select></td>
-                  <td class="text-left"><button type="button" onclick="$('#shipping-row<?php echo $shipping_row; ?>').remove();" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>
+                  <td class="text-left col-sm-2"><button type="button" onclick="$('#shipping-row<?php echo $shipping_row; ?>').remove();" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>
                 </tr>
                 <?php $shipping_row++; ?>
                <?php } ?>
@@ -101,8 +112,9 @@
               </tr>
             </tfoot>
           </table>
-            </div>
+		  </div>
         </form>
+		</div>
       </div>
     </div>
   </div>
@@ -111,28 +123,28 @@ var shipping_row = <?php echo $shipping_row; ?>;
 
 function addShipping() {
 	html  = '<tr id="shipping-row' + shipping_row + '">';
-	html += '<td class="text-left">';
+	html += '<td class="text-left col-sm-4">';
 	<?php foreach($languages as $language){ ?>
 	html += '<div class="input-group required"><span class="input-group-addon"><img src="view/image/flags/<?php echo $language['image']; ?>" title="<?php echo $language['name']; ?>" /></span>';
 	html += '  <input type="text" name="yobeshipping[' + shipping_row + '][shipping_description][<?php echo $language['language_id']; ?>][name]" value="" placeholder="<?php echo $entry_name; ?>" class="form-control" /></div>';
 	<?php } ?>
 	html += '</td>';
-	html += '  <td class="text-left"><input type="text" name="yobeshipping[' + shipping_row + '][cost]" value="" placeholder="<?php echo $entry_cost; ?>" class="form-control" /></td>';
-	html += '  <td class="text-left"><select name="yobeshipping[' + shipping_row + '][yobeshipping_tax_class_id]" id="input-tax-class" class="form-control">';
+	html += '  <td class="text-left col-sm-2"><input type="text" name="yobeshipping[' + shipping_row + '][cost]" value="" placeholder="<?php echo $entry_cost; ?>" class="form-control" /></td>';
+	html += '  <td class="text-left col-sm-2"><select name="yobeshipping[' + shipping_row + '][yobeshipping_tax_class_id]" id="input-tax-class" class="form-control">';
     html += '  <option value="0"><?php echo $text_none; ?></option>';
     <?php foreach ($tax_classes as $tax_class) { ?>
     html += '  <option value="<?php echo $tax_class['tax_class_id']; ?>"><?php echo $tax_class['title']; ?></option>';
     <?php } ?>
     html += '  </select>';
 	html += '  </td>';
-	html += '  <td class="text-left"><select name="yobeshipping[' + shipping_row + '][yobeshipping_geo_zone_id]" id="input-geo-zone" class="form-control">';
+	html += '  <td class="text-left col-sm-4"><select name="yobeshipping[' + shipping_row + '][yobeshipping_geo_zone_id]" id="input-geo-zone" class="form-control">';
     html += '  <option value="0"><?php echo $text_none; ?></option>';
     <?php foreach ($geo_zones as $geo_zone) { ?>
     html += '  <option value="<?php echo $geo_zone['geo_zone_id']; ?>"><?php echo $geo_zone['name']; ?></option>';
     <?php } ?>
     html += '  </select>';
 	html += '  </td>';
-	html += '  <td class="text-left"><button type="button" onclick="$(\'#shipping-row' + shipping_row + '\').remove();" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>';
+	html += '  <td class="text-left col-sm-2"><button type="button" onclick="$(\'#shipping-row' + shipping_row + '\').remove();" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>';
 	html += '</tr>';
 	
 	$('#shiping tbody').append(html);
