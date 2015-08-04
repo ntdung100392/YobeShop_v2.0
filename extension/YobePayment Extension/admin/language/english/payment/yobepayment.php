@@ -25,7 +25,7 @@ $_['entry_sort_order']   = 'Sort Order:';
 
 // Error
 $_['error_permission']   = 'Warning: You do not have permission to modify Yobe Payment!';
-$_['error_western_union']         = 'Bank Instructions Required!';
+$_['error_western_union']= 'Bank Instructions Required!';
 $_['error_logo']         = 'Bank Logo Required!';
 $_['error_name']         = 'Bank Name Required!';
 ?>

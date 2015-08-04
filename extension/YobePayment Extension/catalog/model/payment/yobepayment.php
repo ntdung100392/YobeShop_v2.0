@@ -60,7 +60,7 @@ class ModelPaymentYobePayment extends Model
                 $method_data[$i] = array(
                     'code'  => 'yobepayment',
                     'title' => $this->config->get('yobepayment_name'. $i),
-                    'text'  => $this->config->get('yobepayment_' . $this->config->get('config_language_id') . '_' . $i),
+                    'terms'  => $this->config->get('yobepayment_' . $this->config->get('config_language_id') . '_' . $i),
                     'image' => $this->model_tool_image->resize($this->config->get('yobepayment_image'.$i), 100, 100),
                     'error' => ''
                 );

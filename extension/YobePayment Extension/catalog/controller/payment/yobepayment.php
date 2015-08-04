@@ -3,26 +3,24 @@ class ControllerPaymentYobePayment extends Controller {
 	protected function index() {
 		$this->language->load('payment/yobepayment');
 		
-		$this->data['text_instruction'] = $this->language->get('text_instruction');
-		$this->data['text_description'] = $this->language->get('text_description');
-		$this->data['text_payment'] = $this->language->get('text_payment');
+		$data['text_instruction'] = $this->language->get('text_instruction');
+		$data['text_description'] = $this->language->get('text_description');
+		$data['text_payment'] = $this->language->get('text_payment');
 		
-		$this->data['button_confirm'] = $this->language->get('button_confirm');
+		$data['button_confirm'] = $this->language->get('button_confirm');
         for ($i = 1; $i <= $this->config->get('yobepayment_number_method'); $i++) {
             if(($this->config->get('yobepayment_name'.$i))==$this->session->data['payment_method']['title']){
-                $this->data['yobepayment'] = nl2br($this->config->get('yobepayment_' . $this->config->get('config_language_id') . '_' . $i));
+                $data['yobepayment'] = nl2br($this->config->get('yobepayment_' . $this->config->get('config_language_id') . '_' . $i));
             }
         }
 
-		$this->data['continue'] = $this->url->link('checkout/success');
-		
+		$data['continue'] = $this->url->link('checkout/success');
+
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/payment/yobepayment.tpl')) {
-			$this->template = $this->config->get('config_template') . '/template/payment/yobepayment.tpl';
+			return $this->load->view($this->config->get('config_template') . '/template/payment/yobepayment.tpl', $data);
 		} else {
-			$this->template = 'default/template/payment/yobepayment.tpl';
-		}	
-		
-		$this->render(); 
+			return $this->load->view('default/template/payment/yobepayment.tpl', $data);
+		}
 	}
 
     public function confirm() {

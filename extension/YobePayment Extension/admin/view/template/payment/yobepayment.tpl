@@ -54,13 +54,13 @@
                       </select>
                     </div>
                   </div>
-                  <div class="form-group required">
+                  <div class="form-group">
                     <label class="col-sm-2 control-label" for="input-total"><span data-toggle="tooltip" title="Enter Number Of Bank">Number Of Bank</span></label>
                     <div class="col-sm-10">
                       <input class="form-control" type="text" name="yobepayment_number_method" value="<?php echo $yobepayment_number_method; ?>" size="5" />
                     </div>
                   </div>
-                  <div class="form-group required">
+                  <div class="form-group">
                     <label class="col-sm-2 control-label" for="input-total"><span data-toggle="tooltip" title="Sort Order">Sort Order</span></label>
                     <div class="col-sm-10">
                       <input class="form-control" type="text" name="yobepayment_sort_order" value="<?php echo $yobepayment_sort_order; ?>" size="5" />
@@ -73,8 +73,8 @@
                    <table class="table table-striped table-bordered table-hover">
                     <thead>
                       <td class="text-left required"><?php echo $entry_name;?></td>
-                      <td><?php echo $entry_yobepayment;?></td>
-                      <td><?php echo $entry_image;?></td>
+                      <td class="text-left required"><?php echo $entry_yobepayment;?></td>
+                      <td class="text-left required"><?php echo $entry_image;?></td>
                     </thead>
                     <tbody>
                       <tr>
@@ -88,12 +88,8 @@
                         <?php } ?>
                           <td class="text-center col-sm-4">
                             <div class="image">
-                              <a href="" id="thumb-logo" data-toggle="image" class="img-thumbnail"><img src="<?php echo ${'thumb'.$i}; ?>" alt="" title="" data-placeholder="<?php echo $placeholder; ?>" /></a>
-                              <input type="hidden" name="yobepayment_image<?php echo $i; ?>" value="<?php echo ${'yobepayment_image'.$i}; ?>" id="input-logo" />
-                              <!-- <input type="hidden" name="yobepayment_image<?php echo $i; ?>" value="<?php echo ${'yobepayment_image'.$i}; ?>" id="image<?php echo $i; ?>" />
-                            </br>
-                            <a onclick="image_upload('image<?php echo $i; ?>', 'thumb<?php echo $i; ?>');"><?php echo $text_browse; ?></a>
-                            &nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="$('#thumb<?php echo $i; ?>').attr('src', '<?php echo $no_image; ?>'); $('#image<?php echo $i; ?>').attr('value', '');"><?php echo $text_clear; ?></a> -->
+                              <a href="" id="thumb-<?php echo $i; ?>" data-toggle="image" class="img-thumbnail"><img src="<?php echo ${'thumb'.$i}; ?>" alt="" title="" data-placeholder="<?php echo $placeholder; ?>" /></a>
+                              <input type="hidden" name="yobepayment_image<?php echo $i; ?>" value="<?php echo ${'yobepayment_image'.$i}; ?>" id="input-image<?php echo $i; ?>" />
                           </div>
                           <?php if ($error_image) { ?>
                           <span class="error"><?php echo $error_image; ?></span>
@@ -109,33 +105,5 @@
             </div>
           </div>
         </div>
-
-        <script type="text/javascript"><!--
-        function image_upload(field, thumb) {
-          $('#dialog').remove();
-
-          $('#content').prepend('<div id="dialog" style="padding: 3px 0px 0px 0px;"><iframe src="index.php?route=common/filemanager&token=<?php echo $token; ?>&field=' + encodeURIComponent(field) + '" style="padding:0; margin: 0; display: block; width: 100%; height: 100%;" frameborder="no" scrolling="auto"></iframe></div>');
-
-          $('#dialog').dialog({
-            title: '<?php echo $text_image_manager; ?>',
-            close: function (event, ui) {
-              if ($('#' + field).attr('value')) {
-                $.ajax({
-                  url: 'index.php?route=common/filemanager/image&token=<?php echo $token; ?>&image=' + encodeURIComponent($('#' + field).val()),
-                  dataType: 'text',
-                  success: function(data) {
-                    $('#' + thumb).replaceWith('<img src="' + data + '" alt="" id="' + thumb + '" />');
-                  }
-                });
-              }
-            },
-            bgiframe: false,
-            width: 800,
-            height: 400,
-            resizable: false,
-            modal: false
-          });
-        };
-        //--></script>
 
         <?php echo $footer; ?>
