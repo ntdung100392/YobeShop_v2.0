@@ -20,16 +20,16 @@
   </label>
 </div>
 <?php }else{ ?>
-<?php for($i=1;$i<=$payment_method['count'];$i++){ ?>
+<?php foreach($payment_method['list'] as $payment){ ?>
 <div class="radio">
   <label>
-    <?php if ($payment_method['code'] == $code || !$code) { ?>
-    <?php $code = $payment_method['code']; ?>
-    <input style="margin-top: 45px !important" type="radio" name="payment_method" value="<?php echo $payment_method['code']; ?>" checked="checked" />
+    <?php if ($payment['code'] == $code || !$code) { ?>
+    <?php $code = $payment['code']; ?>
+    <input style="margin-top: 45px !important" type="radio" name="payment_method" value="<?php echo $payment['code']; ?>" checked="checked" />
     <?php } else { ?>
-    <input style="margin-top: 45px !important" type="radio" name="payment_method" value="<?php echo $payment_method['code']; ?>" />
+    <input style="margin-top: 45px !important" type="radio" name="payment_method" value="<?php echo $payment['code']; ?>" />
     <?php } ?>
-    <img src="<?php echo $payment_method[$i]['image']; ?>" for="<?php echo $payment_method[$i]['title']; ?>">    
+    <img src="<?php echo $payment['image']; ?>" for="<?php echo $payment['title']; ?>">    
   </label>
 </div>
 <?php } ?>

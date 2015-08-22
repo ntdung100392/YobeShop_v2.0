@@ -43,21 +43,13 @@ class ControllerCheckoutPaymentMethod extends Controller {
 					$this->load->model('payment/' . $result['code']);
 
 					$method = $this->{'model_payment_' . $result['code']}->getMethod($this->session->data['payment_address'], $total);
-					print_r($result);
 
 					if ($method) {
 						if ($recurring) {
 							if (method_exists($this->{'model_payment_' . $result['code']}, 'recurringPayments') && $this->{'model_payment_' . $result['code']}->recurringPayments()) {
-								if ($method['code'] != 'yobepayment') {
-                                        $method_data[$result['code']] = $method;
-                                    } else {
-                                        for ($i = 1; $i <= $this->config->get('yobepayment_number_method'); $i++) {
-                                            $method_data[$result['code']][$i]= $method;
-                                        }
-                                    }
-							}
-						} else {
-							$method_data[$result['code']] = $method;
+                                $method_data[$result['code']] = $method;							}
+						} else {							
+							$method_data[$result['code']] = $method;							
 						}
 					}
 				}

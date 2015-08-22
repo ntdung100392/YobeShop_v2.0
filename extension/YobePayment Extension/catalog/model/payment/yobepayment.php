@@ -57,11 +57,13 @@ class ModelPaymentYobePayment extends Model
 //                    'title' => $this->config->get('yobepayment_name'. $i),
 //                    'image' => $this->model_tool_image->resize($this->config->get('yobepayment_image'.$i), 100, 100)
 //                );
-                $method_data[$i] = array(
+                $quote_data[$i] = array(
                     'code'  => 'yobepayment',
+                    //'code'  => $this->config->get('yobepayment_name'. $i),
                     'title' => $this->config->get('yobepayment_name'. $i),
                     'terms'  => $this->config->get('yobepayment_' . $this->config->get('config_language_id') . '_' . $i),
                     'image' => $this->model_tool_image->resize($this->config->get('yobepayment_image'.$i), 100, 100),
+                    'sort_order' => $this->config->get('yobepayment_sort_order'),
                     'error' => ''
                 );
             }
@@ -69,6 +71,7 @@ class ModelPaymentYobePayment extends Model
         $method_data['title']=$this->language->get('text_title');
         $method_data['count']=$this->config->get('yobepayment_number_method');
         $method_data['code']='yobepayment';
+        $method_data['list']= $quote_data;
         $method_data['sort_order']=$this->config->get('yobepayment_sort_order');
 
 //        $method_data = array(
