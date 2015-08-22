@@ -901,6 +901,10 @@ $(document).ready(function() {
 			enabled:true
 		}
 	});
+
+  $('#product-radio-option').click(function (){
+     alert(this.val);
+  });
 });
 //--></script> 
 <?php echo $footer; ?>

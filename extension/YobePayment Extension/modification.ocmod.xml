@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+    <name>YobePayment For Yobeshop Opencart 2.0.x</name>
+    <code>Payment</code>
+    <version>1.1</version>
+    <author>Dung Nguyen - Inspiration</author>
+    <link>http://trungdung.ddns.net</link>
+	<file path="catalog/controller/checkout/confirm.php">
+        <operation>
+            <search><![CDATA[$data['payment'] = $this->load->controller('payment/' . $this->session->data['payment_method']['code']);]]></search>
+            <add position="replace"><![CDATA[
+			//Dung Edit for yobepayment
+        $paymentCheck = explode('_',$this->session->data['payment_method']['code']);
+			if($paymentCheck[0]=='yobepayment'){
+				$data['payment'] = $this->load->controller('payment/' . $paymentCheck[0]);
+			}else{
+				$data['payment'] = $this->load->controller('payment/' . $this->session->data['payment_method']['code']);
+			}
+        ]]></add>
+        </operation>        
+    </file>
+	<file path="catalog/controller/checkout/payment_method.php">
+        <operation>
+            <search><![CDATA[$method_data[$result['code']] = $method;]]></search>
+            <add position="replace"><![CDATA[
+			if($method['code']=='yobepayment'){
+								foreach ($method['list'] as $item) {
+									$method_data[$item['code']] = $item;
+								}
+							}else{
+								$method_data[$result['code']] = $method;
+							}
+        ]]></add>
+        </operation>        
+    </file>
+	<file path="catalog/view/theme/default/template/checkout/payment_method.tpl">
+	<operation>
+		<search><![CDATA[<?php echo $payment_method['title']; ?>]]></search>
+		<add position="replace"><![CDATA[
+		<?php if(!isset($payment_method['image'])) { ?>
+    <?php echo $payment_method['title']; ?>
+    <?php } ?>
+		]]></add>
+	</operation>
+	<operation>
+		<search><![CDATA[<input type="radio" name="payment_method" value="<?php echo $payment_method['code']; ?>" checked="checked" />]]></search>
+		<add position="replace"><![CDATA[
+		<?php if(isset($payment_method['image'])) { ?>
+    <input style="margin-top:45px" type="radio" name="payment_method" value="<?php echo $payment_method['code']; ?>" checked="checked" />
+    <img src="<?php echo $payment_method['image']; ?>" for="<?php echo $payment_method['title']; ?>">
+    <?php }else{ ?>
+    <input type="radio" name="payment_method" value="<?php echo $payment_method['code']; ?>" checked="checked" />
+    <?php } ?>
+		]]></add>
+	</operation>
+	<operation>
+		<search><![CDATA[<input type="radio" name="payment_method" value="<?php echo $payment_method['code']; ?>" />]]></search>
+		<add position="replace"><![CDATA[
+		<?php if(isset($payment_method['image'])) { ?>
+    <input style="margin-top:45px" type="radio" name="payment_method" value="<?php echo $payment_method['code']; ?>" />
+    <img src="<?php echo $payment_method['image']; ?>" for="<?php echo $payment_method['title']; ?>">
+    <?php }else{ ?>
+    <input type="radio" name="payment_method" value="<?php echo $payment_method['code']; ?>" />
+    <?php } ?>
+		]]></add>
+	</operation>
+    </file>    
+</modification>
