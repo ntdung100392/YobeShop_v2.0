@@ -93,13 +93,15 @@
                     <tbody>
                       <tr>
                         <td class="text-center col-sm-2"><input type="text" name="yobepayment_name<?php echo $i;?>" value="<?php echo ${'yobepayment_name'.$i}; ?>" /></td>
+                        <td class="text-left col-sm-7">
                       <?php foreach ($languages as $language) { ?>
-                        <td class="text-left col-sm-7"><textarea name="yobepayment_<?php echo $language['language_id']; ?>_<?php echo $i; ?>" cols="90" rows="10"><?php echo isset(${'yobepayment_' . $language['language_id']. '_'.$i}) ? ${'yobepayment_' . $language['language_id']. '_' . $i} : ''; ?></textarea>
+                        <textarea name="yobepayment_<?php echo $language['language_id']; ?>_<?php echo $i; ?>" cols="90" rows="10"><?php echo isset(${'yobepayment_' . $language['language_id']. '_'.$i}) ? ${'yobepayment_' . $language['language_id']. '_' . $i} : ''; ?></textarea>
                           <img src="view/image/flags/<?php echo $language['image']; ?>" title="<?php echo $language['name']; ?>" style="vertical-align: top;" /><br />
                           <?php if (isset(${'error_yobepayment_' . $language['language_id']. '_' . $i})) { ?>
                           <span class="error"><?php echo ${'error_yobepayment_' . $language['language_id']. '_' . $i}; ?></span>
-                          <?php } ?></td>
+                          <?php } ?>
                         <?php } ?>
+                        </td>
                           <td class="text-center col-sm-4">
                             <div class="image">
                               <a href="" id="thumb-<?php echo $i; ?>" data-toggle="image" class="img-thumbnail"><img src="<?php echo ${'thumb'.$i}; ?>" alt="" title="" data-placeholder="<?php echo $placeholder; ?>" /></a>
