@@ -48,8 +48,14 @@ class ControllerCheckoutPaymentMethod extends Controller {
 						if ($recurring) {
 							if (method_exists($this->{'model_payment_' . $result['code']}, 'recurringPayments') && $this->{'model_payment_' . $result['code']}->recurringPayments()) {
                                 $method_data[$result['code']] = $method;							}
-						} else {							
-							$method_data[$result['code']] = $method;							
+						} else {
+							if($method['code']=='yobepayment'){
+								foreach ($method['list'] as $item) {
+									$method_data[$item['code']] = $item;
+								}
+							}else{
+								$method_data[$result['code']] = $method;
+							}
 						}
 					}
 				}

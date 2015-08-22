@@ -1,7 +1,7 @@
 <?php
 class ControllerPaymentYobePayment extends Controller {
-	protected function index() {
-		$this->language->load('payment/yobepayment');
+	public function index() {
+		$this->load->language('payment/yobepayment');
 		
 		$data['text_instruction'] = $this->language->get('text_instruction');
 		$data['text_description'] = $this->language->get('text_description');
@@ -9,7 +9,7 @@ class ControllerPaymentYobePayment extends Controller {
 		
 		$data['button_confirm'] = $this->language->get('button_confirm');
         for ($i = 1; $i <= $this->config->get('yobepayment_number_method'); $i++) {
-            if(($this->config->get('yobepayment_name'.$i))==$this->session->data['payment_method']['title']){
+            if($this->config->get('yobepayment_name'.$i)==$this->session->data['payment_method']['title']){
                 $data['yobepayment'] = nl2br($this->config->get('yobepayment_' . $this->config->get('config_language_id') . '_' . $i));
             }
         }
@@ -31,12 +31,12 @@ class ControllerPaymentYobePayment extends Controller {
         $comment  = $this->language->get('text_instruction') . "\n\n";
         for ($i = 1; $i <= $this->config->get('yobepayment_number_method'); $i++) {
             if(($this->config->get('yobepayment_name'.$i))==$this->session->data['payment_method']['title']){
-                $comment .= nl2br($this->config->get('yobepayment_' . $this->config->get('config_language_id') . '_' . $i)) . "\n\n";;
+                $comment .= nl2br($this->config->get('yobepayment_' . $this->config->get('config_language_id') . '_' . $i)) . "\n\n";
             }
         }
         $comment .= $this->language->get('text_payment');
 
-        $this->model_checkout_order->confirm($this->session->data['order_id'], $this->config->get('yobepayment_order_status_id'), $comment, true);
+        $this->model_checkout_order->addOrderHistory($this->session->data['order_id'], $this->config->get('yobepayment_order_status_id'), $comment, true);
     }
 }
 ?>

@@ -138,7 +138,6 @@ class ControllerCheckoutConfirm extends Controller {
 			$order_data['payment_address_format'] = $this->session->data['payment_address']['address_format'];
 			$order_data['payment_custom_field'] = (isset($this->session->data['payment_address']['custom_field']) ? $this->session->data['payment_address']['custom_field'] : array());
 
-			print_r($this->session->data['payment_method']);
 			if (isset($this->session->data['payment_method']['title'])) {
 				$order_data['payment_method'] = $this->session->data['payment_method']['title'];
 			} else {
@@ -406,8 +405,13 @@ class ControllerCheckoutConfirm extends Controller {
 					'text'  => $this->currency->format($total['value']),
 				);
 			}
+			$paymentCheck = explode('_',$this->session->data['payment_method']['code']);
+			if($paymentCheck[0]=='yobepayment'){
+				$data['payment'] = $this->load->controller('payment/' . $paymentCheck[0]);
+			}else{
+				$data['payment'] = $this->load->controller('payment/' . $this->session->data['payment_method']['code']);
+			}
 
-			$data['payment'] = $this->load->controller('payment/' . $this->session->data['payment_method']['code']);
 		} else {
 			$data['redirect'] = $redirect;
 		}

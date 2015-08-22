@@ -4,36 +4,32 @@
 <?php if ($payment_methods) { ?>
 <p><?php echo $text_payment_method; ?></p>
 <?php foreach ($payment_methods as $payment_method) { ?>
-<?php if($payment_method['title']!='Yobe Payment'){ ?>
 <div class="radio">
   <label>
     <?php if ($payment_method['code'] == $code || !$code) { ?>
     <?php $code = $payment_method['code']; ?>
+    <?php if(isset($payment_method['image'])) { ?>
+    <input style="margin-top:45px" type="radio" name="payment_method" value="<?php echo $payment_method['code']; ?>" checked="checked" />
+    <img src="<?php echo $payment_method['image']; ?>" for="<?php echo $payment_method['title']; ?>">
+    <?php }else{ ?>
     <input type="radio" name="payment_method" value="<?php echo $payment_method['code']; ?>" checked="checked" />
+    <?php } ?>
     <?php } else { ?>
+    <?php if(isset($payment_method['image'])) { ?>
+    <input style="margin-top:45px" type="radio" name="payment_method" value="<?php echo $payment_method['code']; ?>" />
+    <img src="<?php echo $payment_method['image']; ?>" for="<?php echo $payment_method['title']; ?>">
+    <?php }else{ ?>
     <input type="radio" name="payment_method" value="<?php echo $payment_method['code']; ?>" />
     <?php } ?>
+    <?php } ?>
+    <?php if(!isset($payment_method['image'])) { ?>
     <?php echo $payment_method['title']; ?>
+    <?php } ?>
     <?php if ($payment_method['terms']) { ?>
     (<?php echo $payment_method['terms']; ?>)
     <?php } ?>
   </label>
 </div>
-<?php }else{ ?>
-<?php foreach($payment_method['list'] as $payment){ ?>
-<div class="radio">
-  <label>
-    <?php if ($payment['code'] == $code || !$code) { ?>
-    <?php $code = $payment['code']; ?>
-    <input style="margin-top: 45px !important" type="radio" name="payment_method" value="<?php echo $payment['code']; ?>" checked="checked" />
-    <?php } else { ?>
-    <input style="margin-top: 45px !important" type="radio" name="payment_method" value="<?php echo $payment['code']; ?>" />
-    <?php } ?>
-    <img src="<?php echo $payment['image']; ?>" for="<?php echo $payment['title']; ?>">    
-  </label>
-</div>
-<?php } ?>
-<?php } ?>
 <?php } ?>
 <?php } ?>
 <p><strong><?php echo $text_comments; ?></strong></p>

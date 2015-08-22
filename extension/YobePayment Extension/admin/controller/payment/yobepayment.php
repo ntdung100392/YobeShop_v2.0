@@ -32,7 +32,7 @@
             $data['entry_name'] = $this->language->get('entry_name');
             $data['entry_yobepayment'] = $this->language->get('entry_yobepayment');
             $data['entry_total'] = $this->language->get('entry_total');	
-            $data['entry_order_status'] = $this->language->get('entry_order_status');		
+            $data['entry_order_status'] = $this->language->get('entry_order_status');
             $data['entry_geo_zone'] = $this->language->get('entry_geo_zone');
             $data['entry_number_method'] = $this->language->get('entry_number_method');
             $data['entry_status'] = $this->language->get('entry_status');
